@@ -1,0 +1,23 @@
+@media (max-width: 991.98px) {
+  /* Pantallas pequeñas */
+  .nav-bar .navbar {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Pantallas grandes */
+  .nav-bar .navbar {
+    width: 90%;
+    margin: 0 auto; /* Centra la barra de navegación */
+  }
+}
+
+.active {
+  font-weight: bold;
+  color: brown !important;
+}
+.nav-item:hover {
+  font-weight: bold;
+  color: brown !important;
+}
