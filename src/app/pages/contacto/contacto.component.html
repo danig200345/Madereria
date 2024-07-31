@@ -1,1 +1,98 @@
-<p>contacto works!</p>
+@defer () {
+<section id="contact" class="contact section mt-5 mb-5">
+  <!-- Section Title -->
+  <div class="container section-title text-center">
+    <h2 class="poppins-extrabold">Contacto</h2>
+    <p class="poppins-extrabold" style="color: gray">Nos encantaría saber de ti. Completa el formulario a continuación o
+      utiliza los
+      detalles de contacto para
+      comunicarte con nosotros.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+
+    <!-- Contact Form -->
+    <div class="row mt-5 justify-content-center">
+      <div class="col-lg-8">
+        <div class="bg-light p-5 shadow-sm rounded">
+          <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="php-email-form ">
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">Nombre:</label>
+                  <input id="name" type="text" formControlName="name" class="form-control" placeholder="Tu Nombre"
+                    required>
+                  <div *ngIf="contactForm.get('name')?.invalid && contactForm.get('name')?.touched"
+                    class="invalid-feedback d-block">
+                    El nombre es requerido.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="email">Correo Electrónico:</label>
+                  <input id="email" type="email" formControlName="email" class="form-control" placeholder="Tu Email"
+                    required>
+                  <div *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched"
+                    class="invalid-feedback d-block">
+                    <div *ngIf="contactForm.get('email')?.errors?.['required']">El correo electrónico es requerido.
+                    </div>
+                    <div *ngIf="contactForm.get('email')?.errors?.['email']">El correo electrónico no es válido.</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="subject">Asunto:</label>
+                  <input id="subject" type="text" formControlName="subject" class="form-control" placeholder="Asunto"
+                    required>
+                  <div *ngIf="contactForm.get('subject')?.invalid && contactForm.get('subject')?.touched"
+                    class="invalid-feedback d-block">
+                    El asunto es requerido.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="message">Mensaje:</label>
+                  <textarea id="message" formControlName="message" rows="5" class="form-control" placeholder="Mensaje"
+                    required></textarea>
+                  <div *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched"
+                    class="invalid-feedback d-block">
+                    El mensaje es requerido.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <button type="submit" [disabled]="loading" class="btn btn-primary">Enviar Mensaje</button>
+                <div *ngIf="loading" class="loading mt-3">Enviando...</div>
+                <div *ngIf="sentMessage" class="alert alert-success mt-3">Tu mensaje ha sido enviado exitosamente.</div>
+                <div *ngIf="errorMessage" class="alert alert-danger mt-3">{{ errorMessage }}</div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div><!-- End Contact Form -->
+    </div>
+  </div>
+</section>
+}@placeholder {
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="bg-light p-5 shadow-sm rounded">
+        <p class="text-center text-muted font-weight-bold">Cargando...</p>
+        <div class="spinner-border text-primary d-block mx-auto" role="status">
+          <span class="visually-hidden"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+}
