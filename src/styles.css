@@ -40,6 +40,11 @@
   font-weight: 700 !important;
   font-style: normal !important;
 }
+.poppins-bolds {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
 a.poppins-bold {
   font-family: "Poppins", sans-serif !important;
   font-weight: 700 !important;
@@ -2985,24 +2990,24 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #7ab730;
-  border-color: #7ab730;
+  color: #fafafa;
+  border-color: #fafafa;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #7ab730;
-  border-color: #7ab730;
+  background-color: #989898;
+  border-color: #fafafa;
 }
 
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(122, 183, 48, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(210, 210, 210, 0.5);
 }
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #7ab730;
+  color: #fafafa;
   background-color: transparent;
 }
 
@@ -3010,14 +3015,14 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #7ab730;
-  border-color: #7ab730;
+  background-color: #fafafa;
+  border-color: #fafafa;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(122, 183, 48, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(159, 159, 159, 0.5);
 }
 
 .btn-outline-secondary {
@@ -10299,4 +10304,7 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+.hover-a:hover {
+  color: gray !important;
 }
