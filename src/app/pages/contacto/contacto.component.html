@@ -23,10 +23,11 @@
                   <label for="name">Nombre:</label>
                   <input id="name" type="text" formControlName="name" class="form-control" placeholder="Tu Nombre"
                     required>
-                  <div *ngIf="contactForm.get('name')?.invalid && contactForm.get('name')?.touched"
-                    class="invalid-feedback d-block">
+                  @if (contactForm.get('name')?.invalid && contactForm.get('name')?.touched) {
+                  <div class="invalid-feedback d-block">
                     El nombre es requerido.
                   </div>
+                  }
                 </div>
               </div>
 
@@ -35,12 +36,16 @@
                   <label for="email">Correo Electrónico:</label>
                   <input id="email" type="email" formControlName="email" class="form-control" placeholder="Tu Email"
                     required>
-                  <div *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched"
-                    class="invalid-feedback d-block">
-                    <div *ngIf="contactForm.get('email')?.errors?.['required']">El correo electrónico es requerido.
-                    </div>
-                    <div *ngIf="contactForm.get('email')?.errors?.['email']">El correo electrónico no es válido.</div>
+                  @if (contactForm.get('email')?.invalid && contactForm.get('email')?.touched) {
+                  <div class="invalid-feedback d-block">
+                    @if (contactForm.get('email')?.errors?.['required']) {
+                    El correo electrónico es requerido.
+                    }
+                    @if (contactForm.get('email')?.errors?.['email']) {
+                    El correo electrónico no es válido.
+                    }
                   </div>
+                  }
                 </div>
               </div>
 
@@ -49,10 +54,11 @@
                   <label for="subject">Asunto:</label>
                   <input id="subject" type="text" formControlName="subject" class="form-control" placeholder="Asunto"
                     required>
-                  <div *ngIf="contactForm.get('subject')?.invalid && contactForm.get('subject')?.touched"
-                    class="invalid-feedback d-block">
+                  @if (contactForm.get('subject')?.invalid && contactForm.get('subject')?.touched) {
+                  <div class="invalid-feedback d-block">
                     El asunto es requerido.
                   </div>
+                  }
                 </div>
               </div>
 
@@ -61,18 +67,24 @@
                   <label for="message">Mensaje:</label>
                   <textarea id="message" formControlName="message" rows="5" class="form-control" placeholder="Mensaje"
                     required></textarea>
-                  <div *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched"
-                    class="invalid-feedback d-block">
+                  @if (contactForm.get('message')?.invalid && contactForm.get('message')?.touched) {
+                  <div class="invalid-feedback d-block">
                     El mensaje es requerido.
                   </div>
+                  }
                 </div>
               </div>
-
               <div class="col-md-12 text-center">
                 <button type="submit" [disabled]="loading" class="btn btn-primary">Enviar Mensaje</button>
-                <div *ngIf="loading" class="loading mt-3">Enviando...</div>
-                <div *ngIf="sentMessage" class="alert alert-success mt-3">Tu mensaje ha sido enviado exitosamente.</div>
-                <div *ngIf="errorMessage" class="alert alert-danger mt-3">{{ errorMessage }}</div>
+                @if (loading) {
+                <div class="loading">Enviando...</div>
+                }
+                @if (sentMessage) {
+                <div class="alert alert-success mt-3">Tu mensaje ha sido enviado exitosamente.</div>
+                }
+                @if (errorMessage) {
+                <div class="alert alert-danger mt-3">{{ errorMessage }}</div>
+                }
               </div>
             </div>
           </form>

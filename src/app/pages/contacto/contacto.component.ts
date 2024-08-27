@@ -1,6 +1,6 @@
 // Importaciones necesarias de Angular y RxJS
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
@@ -11,7 +11,7 @@ import { debounceTime } from 'rxjs/operators';
 @Component({
   selector: 'app-contacto', // Nombre del selector HTML para usar este componente
   standalone: true, // Indica que este componente es autónomo y no depende de un módulo
-  imports: [RouterModule, ReactiveFormsModule, CommonModule], // Módulos necesarios
+  imports: [RouterModule, ReactiveFormsModule], // Módulos necesarios
   templateUrl: './contacto.component.html', // Ruta del archivo HTML que define la plantilla del componente
   styleUrls: ['./contacto.component.css'] // Ruta del archivo CSS que define los estilos del componente
 })

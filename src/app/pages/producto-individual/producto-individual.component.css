@@ -1,0 +1,15 @@
+.product-color-dot {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+
+.color-dot-red {
+  background-color: red;
+}
+
+.color-dot-blue {
+  background-color: blue;
+}
+
+/* Agrega más colores según sea necesario */

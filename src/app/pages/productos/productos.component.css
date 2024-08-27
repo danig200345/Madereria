@@ -1,0 +1,17 @@
+.space {
+  margin-top: 50px;
+}
+.active {
+  color: #fff;
+  background-color: #4c2f00;
+}
+.paginacion ::ng-deep .ngx-pagination .current {
+  background-color: #4c2f00;
+}
+.hover:active {
+  color: #cccccc;
+  transform: scale(0.9);
+}
+.hover:hover {
+  border: 3px solid white;
+}
