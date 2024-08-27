@@ -38,8 +38,8 @@ jobs:
       - name: Copy index.html to 404.html in products
         run: cp dist/madereria/browser/productos/index.html dist/madereria/browser/productos/404.html
 
-      - name: Copy index.html to 404.html in inicio
-        run: cp dist/madereria/browser/inicio/index.html dist/madereria/browser/inicio/404.html
+      - name: Copy index.html to 404.html
+        run: cp dist/madereria/browser/index.csr.html dist/madereria/browser/inicio/404.html
 
       - name: Copy root index.html to 404.html
         run: cp dist/madereria/browser/index.html dist/madereria/browser/404.html
