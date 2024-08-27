@@ -36,7 +36,7 @@ jobs:
         run: cp dist/madereria/browser/contacto/index.html dist/madereria/browser/contacto/404.html
 
       - name: Copy index.html to 404.html in home
-        run: cp dist/madereria/browser/productos/index.html dist/browser/productos/404.html
+        run: cp dist/madereria/browser/productos/index.html dist/madereria/browser/productos/404.html
 
       - name: Copy root index.html to 404.html
         run: cp dist/madereria/browser/index.html dist/madereria/browser/404.html
