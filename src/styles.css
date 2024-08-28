@@ -351,6 +351,16 @@ img {
   vertical-align: middle;
   border-style: none;
 }
+.img-with-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #6a460d;
+  height: 70vh;
+  width: 32vw;
+  z-index: -1;
+  transform: translate(65%, -5%); /* Ajusta según sea necesario */
+}
 
 svg {
   overflow: hidden;
@@ -905,8 +915,8 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px;*/
 }
 
 .col {
@@ -4986,6 +4996,31 @@ input[type="button"].btn-block {
 }
 
 .accordion {
+  --bs-accordion-color: #333; /* Cambia el color del texto */
+  --bs-accordion-bg: rgba(255, 255, 255, 0.15); /* Cambia el color de fondo */
+  --bs-accordion-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease,
+    border-radius 0.3s ease; /* Ajusta la duración y el tipo de transición */
+  --bs-accordion-border-color: #dee2e6; /* Cambia el color del borde */
+  --bs-accordion-border-width: 2px; /* Cambia el grosor del borde */
+  --bs-accordion-border-radius: 0.5rem; /* Cambia el radio de borde para esquinas redondeadas */
+  --bs-accordion-inner-border-radius: calc(0.5rem - 2px); /* Ajusta el radio interno */
+  --bs-accordion-btn-padding-x: 1rem; /* Ajusta el padding horizontal del botón */
+  --bs-accordion-btn-padding-y: 0.75rem; /* Ajusta el padding vertical del botón */
+  --bs-accordion-btn-color: #212529; /* Cambia el color del texto del botón */
+  --bs-accordion-btn-bg: rgba(255, 255, 255, 0.15); /* Cambia el fondo del botón */
+  --bs-accordion-btn-icon: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="%23212529" stroke-linecap="round" stroke-linejoin="round"%3e%3cpath d="M2 5L8 11L14 5"/%3e%3c/svg%3e'); /* Cambia el ícono del botón */
+  --bs-accordion-btn-icon-width: 1.5rem; /* Cambia el tamaño del ícono */
+  --bs-accordion-btn-icon-transform: rotate(0deg); /* Ajusta la rotación del ícono */
+  --bs-accordion-btn-icon-transition: transform 0.3s ease; /* Cambia la duración de la transición del ícono */
+  --bs-accordion-btn-active-icon: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="%23052c65" stroke-linecap="round" stroke-linejoin="round"%3e%3cpath d="M2 5L8 11L14 5"/%3e%3c/svg%3e'); /* Cambia el ícono del botón activo */
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #6f4f28; /* Cambia la sombra del botón en estado focus */
+  --bs-accordion-body-padding-x: 1rem; /* Ajusta el padding horizontal del cuerpo del acordeón */
+  --bs-accordion-body-padding-y: 0.75rem; /* Ajusta el padding vertical del cuerpo del acordeón */
+  --bs-accordion-active-color: #ffffff; /* Cambia el color del texto cuando está activo */
+  --bs-accordion-active-bg: #6f4f28; /* Cambia el fondo cuando está activo */
+}
+
+.accordion {
   overflow-anchor: none;
 }
 
@@ -6713,7 +6748,9 @@ button.bg-dark:focus {
 .bg-white {
   background-color: #fff !important;
 }
-
+.bg-sm {
+  background: white;
+}
 .bg-transparent {
   background-color: transparent !important;
 }
@@ -10094,7 +10131,28 @@ h6,
     font-size: 30px;
   }
 }
-
+@media (max-width: 992px) {
+  .img-with-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #6a460d;
+    height: 60vh;
+    width: 70vw;
+    z-index: -1;
+    transform: translate(65%, -5%); /* Ajusta según sea necesario */
+  }
+}
+@media (max-width: 992px) {
+  .espacio-sm {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 992px) {
+  .bg-sm {
+    background: rgb(255, 255, 255, 0.15);
+  }
+}
 @media (min-width: 768px) {
   .booking {
     position: relative;
@@ -10106,6 +10164,11 @@ h6,
 @media (min-width: 992px) {
   .about-text {
     margin-left: -120px;
+  }
+}
+@media (min-width: 992px) {
+  .ratio-1x1 {
+    --bs-aspect-ratio: 56.25%;
   }
 }
 
