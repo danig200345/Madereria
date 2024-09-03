@@ -356,10 +356,10 @@ img {
   top: 0;
   right: 0;
   background-color: #6a460d;
-  height: 70vh;
-  width: 170%;
+  height: 115%;
+  width: 80%;
   z-index: -1;
-  transform: translate(65%, -5%); /* Ajusta según sea necesario */
+  transform: translate(5%, -5%); /* Ajusta según sea necesario */
 }
 
 svg {
@@ -729,7 +729,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .img-thumbnail {
@@ -10147,16 +10147,16 @@ h6,
     font-size: 30px;
   }
 }
-@media (max-width: 767.2px) {
+@media (max-width: 1199.2px) {
   .img-with-background {
     position: absolute;
     top: 0;
     right: 0;
     background-color: #6a460d;
-    height: 72vh;
-    width: 170%;
+    height: 115%;
+    width: 111%;
     z-index: -1;
-    transform: translate(65%, -5%); /* Ajusta según sea necesario */
+    transform: translate(5%, -5%); /* Ajusta según sea necesario */
   }
 }
 

@@ -4,15 +4,8 @@
   line-break: normal;
   font-size: 59px;
 }
-@media (max-width: 1200px) {
-  .tab {
-    text-align: left;
-    line-height: 89px;
-    line-break: normal;
-    font-size: 3.35rem;
-  }
-}
-@media (max-width: 1199.5px) {
+
+@media (max-width: 1231.5px) {
   .tab {
     text-align: left;
     line-height: 1.6;
