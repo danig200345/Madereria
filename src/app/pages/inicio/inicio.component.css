@@ -12,12 +12,20 @@
     font-size: 3.35rem;
   }
 }
+@media (max-width: 1199.5px) {
+  .tab {
+    text-align: left;
+    line-height: 1.6;
+    line-break: normal;
+    font-size: 2.6rem;
+  }
+}
 @media (max-width: 1051px) {
   .tab {
     text-align: left;
     line-height: 1.6;
     line-break: normal;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 991.2px) {
