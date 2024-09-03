@@ -1,4 +1,3 @@
-// Importaciones necesarias de Angular y RxJS
 import { Component, OnInit } from '@angular/core';
 
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
@@ -7,6 +6,7 @@ import { HttpClient } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
+
 
 @Component({
   selector: 'app-contacto', // Nombre del selector HTML para usar este componente
