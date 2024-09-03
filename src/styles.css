@@ -617,7 +617,11 @@ h6,
     font-size: calc(1.725rem + 5.7vw);
   }
 }
-
+.display-2-c {
+  font-size: 5.25rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
 .display-2 {
   font-size: 5.5rem;
   font-weight: 300;
@@ -626,6 +630,9 @@ h6,
 
 @media (max-width: 1200px) {
   .display-2 {
+    font-size: calc(1.675rem + 5.1vw);
+  }
+  .display-2-c {
     font-size: calc(1.675rem + 5.1vw);
   }
 }
@@ -653,7 +660,16 @@ h6,
     font-size: calc(1.475rem + 2.7vw);
   }
 }
-
+.display-29 {
+  font-size: 1.813rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (max-width: 1200px) {
+  .display-29 {
+    font-size: calc(1.475rem + 2.7vw);
+  }
+}
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
