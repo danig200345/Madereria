@@ -4,12 +4,14 @@
   display: inline-block;
 }
 
-.color-dot-red {
+.rojo {
   background-color: red;
 }
 
-.color-dot-blue {
+.azul {
   background-color: blue;
 }
 
-/* Agrega más colores según sea necesario */
+.negro {
+  background-color: black;
+}

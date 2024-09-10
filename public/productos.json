@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Madera de Pino",
+    "price": "$500",
+    "image": "imgs/329.jpg",
+    "description": "Madera de alta calidad",
+    "colors": [
+      "rojo",
+      "azul",
+      "negro"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Madera de Roble",
+    "price": "$750",
+    "image": "imgs/329.jpg",
+    "description": "Roble resistente",
+    "colors": [
+      "rojo",
+      "azul",
+      "negro"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Madera de Abeto",
+    "price": "$750",
+    "image": "imgs/329.jpg",
+    "description": "Abeto resistente",
+    "colors": [
+      "rojo",
+      "azul",
+      "negro"
+    ]
+  }
+]

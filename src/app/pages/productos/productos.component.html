@@ -29,8 +29,7 @@
 
     <div class="col-lg-9 space">
       <div class="row">
-        <!-- Loop through the collection using @for and paginate the results -->
-        @for (item of collection | paginate: { itemsPerPage: 2, currentPage: p } ; track item.id) {
+        @for (item of productos | paginate: { itemsPerPage: 2, currentPage: p } ; track item.id) {
         <div class="col-md-4">
           <div class="card mb-4 product-wap rounded-0 hover" style="cursor: pointer;"
             [routerLink]="['/productos', item.id]">

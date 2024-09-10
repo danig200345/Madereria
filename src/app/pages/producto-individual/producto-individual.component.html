@@ -15,7 +15,8 @@
           <p class="h3 py-2">{{ product.price || '$0.00' }}</p>
           <h6>Description:</h6>
           <p>{{ product.description }}</p>
-          <h6>Avaliable Colors:</h6>
+
+          <h6>Colores Disponibles:</h6>
           <ul class="list-inline">
             <li class="list-inline-item">
               @for (color of product.colors; track color) {
@@ -23,6 +24,7 @@
               }
             </li>
           </ul>
+
           <!-- Añade otros detalles del producto aquí -->
         </div>
       </div>

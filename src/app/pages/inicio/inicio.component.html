@@ -173,30 +173,56 @@
   </div>
 </div>
 
-<!-- Sección Tipos de Materiales -->
-<section class="container-fluid my-5 p-5 ">
-  <div class="container pt-5 pb-5">
-    <h2 class="poppins-bold-brown text-center">Tipos de Materiales</h2>
-    <div class="row">
-      <div class="col-md-3">
-        <h4 class="poppins-bold">Madera Caoba</h4>
-        <p>El encino polar es un diseño de madera con estructura de...</p>
-      </div>
-      <div class="col-md-3">
-        <h4 class="poppins-bold">Madera Cedro</h4>
-        <p>El encino polar es un diseño de madera con estructura de...</p>
-      </div>
-      <div class="col-md-3">
-        <h4 class="poppins-bold">Madera de Pino Chihuahua</h4>
-        <p>El encino polar es un diseño de madera con estructura de...</p>
-      </div>
-      <div class="col-md-3">
-        <h4 class="poppins-bold">Madera Rosa Morada</h4>
-        <p>El encino polar es un diseño de madera con estructura de...</p>
-      </div>
+<section class="container-fluid my-5">
+  <div class="container pb-5">
+    <div class="grid-container">
+      <div class="grid-item"><img src="imgs/image1.jpg" alt="Office supplies 1"></div>
+      <div class="grid-item"><img src="imgs/image2.jpg" alt="Office supplies 2"></div>
+      <div class="grid-item"><img src="imgs/image3.jpg" alt="Office supplies 3"></div>
+      <div class="grid-item"><img src="imgs/image4.jpg" alt="Office supplies 4"></div>
+      <div class="grid-item"><img src="imgs/image5.jpg" alt="Office supplies 5"></div>
+      <div class="grid-item"><img src="imgs/image6.jpg" alt="Office supplies 6"></div>
+      <div class="grid-item"><img src="imgs/image7.jpg" alt="Office supplies 7"></div>
+      <div class="grid-item"><img src="imgs/image8.jpg" alt="Office supplies 8"></div>
     </div>
   </div>
 </section>
+
+<!-- Sección Tipos de Materiales -->
+<section class="container-fluid my-5 p-5">
+  <div class="container pt-5 pb-5">
+    <h2 class="poppins-bold-brown text-center">Tipos de Materiales</h2>
+    <owl-carousel-o
+      [options]="{ items: 3, margin: 10, loop: true, dots: false, nav: false, autoplay: true, autoplayTimeout: 3000, autoplayHoverPause: true }">
+      @for (item of productos; track item.id) {
+      <ng-container>
+        <ng-template carouselSlide>
+          <div class="service-item position-relative">
+            <img class="img-fluid" [src]="item.image" alt="{{ item.name }}">
+            <div class="service-text text-center">
+              <h4 class="text-white font-weight-medium px-3">{{ item.name }}</h4>
+              <p class="text-white px-3 mb-3">{{ item.description }}</p>
+              <div class="w-100 text-center p-4">
+                <a class="btn btn-primary" [routerLink]="['/productos', item.id]">Ver Producto</a>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </ng-container>
+      }
+    </owl-carousel-o>
+  </div>
+</section>
+
+<!-- Sección Únete a Nuestros Clientes Satisfechos -->
+<section class="container-fluid my-5 p-5  text-center">
+  <div class="container pt-5 pb-3">
+    <h2 class="poppins-bold-brown">Únete a Nuestros Clientes Satisfechos y Transforma
+      Tus Proyectos con Madera de Calidad</h2>
+    <img src="imgs/clientes.jpg" alt="Nuestros clientes" class="w-100">
+  </div>
+</section>
+
 
 <!-- Sección Preguntas Frecuentes -->
 <section class="container-fluid my-5 p-5 ">
@@ -271,16 +297,7 @@
 
 
 
-<!-- Sección Únete a Nuestros Clientes Satisfechos -->
-<section class="container-fluid my-5 p-5  text-center">
-  <div class="container pt-5 pb-3">
-    <h2 class="poppins-bold-brown">Únete a Nuestros Clientes Satisfechos</h2>
-    <p class="lead">Transforma Tus Proyectos con Madera de Calidad</p>
-    <p>¿En qué zonas ofrecen envíos?</p>
-    <p>Ofrecemos envíos a todo el país. Los costos y tiempos de envío varían según la ubicación y el tamaño del pedido.
-      Puedes obtener una estimación del costo de envío al ingresar tu dirección durante el proceso de compra.</p>
-  </div>
-</section>
+
 
 
 
