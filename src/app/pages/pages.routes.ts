@@ -11,6 +11,10 @@ export const routespages: Routes = [
     loadComponent: () => import('./productos/productos.component').then(m => m.ProductosComponent)
   },
   {
+    path: 'nosotros',
+    loadComponent: () => import('./nosotros/nosotros.component').then(m => m.NosotrosComponent)
+  },
+  {
     path: 'productos/:id',
     loadComponent: () => import('./producto-individual/producto-individual.component').then(m => m.ProductoIndividualComponent)
   },

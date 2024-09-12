@@ -31,19 +31,15 @@
       <div class="row">
         @for (item of productos | paginate: { itemsPerPage: 2, currentPage: p } ; track item.id) {
         <div class="col-md-4">
-          <div class="card mb-4 product-wap rounded-0 hover" style="cursor: pointer;"
-            [routerLink]="['/productos', item.id]">
+          <div class="card mb-4 rounded-0 hover" style="cursor: pointer;" [routerLink]="['/productos', item.id]">
             <div class="card rounded-0">
               <img class="card-img rounded-0 img-fluid" [src]="item.image" />
             </div>
             <div class="card-body">
               <a [routerLink]="['/productos', item.id]" class="h3 text-decoration-none">{{ item.name }}</a>
               <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                <li>{{item.description}}</li>
-                <li class="pt-2">
-                  <span *ngFor="let color of item.colors" [ngClass]="color"
-                    class="product-color-dot float-start rounded-circle ms-1"></span>
-                </li>
+                <li>{{item.descriptions}}</li>
+
               </ul>
             </div>
           </div>

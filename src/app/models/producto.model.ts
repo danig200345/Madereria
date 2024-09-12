@@ -4,5 +4,6 @@ export interface Producto {
   price: string;
   image: string;
   description: string;
+  descriptions: string;
   colors: string[];
 }

@@ -665,9 +665,17 @@ h6,
   font-weight: 300;
   line-height: 1.2;
 }
+.display-30 {
+  font-size: 2.8rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
 @media (max-width: 1200px) {
   .display-29 {
     font-size: calc(1.475rem + 2.7vw);
+  }
+  .display-30 {
+    font-size: calc(1.5rem + 2.8vw);
   }
 }
 hr {
@@ -2027,6 +2035,18 @@ pre code {
 .table-dark thead th,
 .table-dark tbody + tbody {
   border-color: #8c8c8c;
+}
+
+.rojo {
+  background-color: red;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.negro {
+  background-color: black;
 }
 
 .table-hover .table-dark:hover {
