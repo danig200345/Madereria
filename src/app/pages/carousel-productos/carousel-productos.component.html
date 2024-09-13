@@ -1,17 +1,28 @@
 <section class="container-fluid my-5 p-5">
   <div class="container pt-5 pb-5">
-    <h2 class="poppins-bold-brown text-center"></h2>
-    <owl-carousel-o
-      [options]="{ items: 3, margin: 10, loop: true, dots: false, nav: false, autoplay: true, autoplayTimeout: 3000, autoplayHoverPause: true  }">
+    <h2 class="poppins-bold-brown text-center">Nuestros Productos</h2>
+    <owl-carousel-o [options]="{
+        items: 3,
+        margin: 10,
+        loop: true,
+        dots: false,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: { '0': { items: 1 }, '576': { items: 2 }, '992': { items: 3 } }
+      }" class="row">
       @for (item of productos; track item.id) {
       <ng-container>
         <ng-template carouselSlide>
-          <div class="service-item position-relative">
-            <img class="img-fluid" [src]="item.image" alt="{{ item.name }}">
-            <div class="service-text text-center">
-              <h4 class="text-white font-weight-medium px-3">{{ item.name }}</h4>
-              <p class="text-white px-3 mb-3">{{ item.description }}</p>
-              <div class="w-100 text-center p-4">
+          <div class="col service-item position-relative">
+            <div class="card text-white">
+              <!-- Imagen con menor brillo usando opacity -->
+              <img src="{{ item.image }}" class="card-img" alt="{{ item.name }}" style="filter: brightness(0.6);">
+              <!-- Texto centrado vertical y horizontalmente -->
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
+                <h4 class="card-title">{{ item.name }}</h4>
+                <p class="card-text">{{ item.description }}</p>
                 <a class="btn btn-primary" [routerLink]="['/productos', item.id]">Ver Producto</a>
               </div>
             </div>
