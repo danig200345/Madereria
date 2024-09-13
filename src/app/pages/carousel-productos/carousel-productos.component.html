@@ -11,19 +11,17 @@
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
         responsive: { '0': { items: 1 }, '576': { items: 2 }, '992': { items: 3 } }
-      }" class="row">
+      }">
       @for (item of productos; track item.id) {
       <ng-container>
         <ng-template carouselSlide>
-          <div class="col service-item position-relative">
+          <div class="item">
             <div class="card text-white">
-              <!-- Imagen con menor brillo usando opacity -->
-              <img src="{{ item.image }}" class="card-img" alt="{{ item.name }}" style="filter: brightness(0.6);">
-              <!-- Texto centrado vertical y horizontalmente -->
+              <img src="{{ item.image }}" class="card-img w-100" alt="{{ item.name }}" style="filter: brightness(0.5);">
               <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
                 <h4 class="card-title">{{ item.name }}</h4>
                 <p class="card-text">{{ item.description }}</p>
-                <a class="btn btn-primary" [routerLink]="['/productos', item.id]">Ver Producto</a>
+                <a class="btn btn-primary mt-3" [routerLink]="['/productos', item.id]">Ver Producto</a>
               </div>
             </div>
           </div>
