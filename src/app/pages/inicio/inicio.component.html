@@ -189,30 +189,7 @@
 </section>
 
 <!-- Sección Tipos de Materiales -->
-<section class="container-fluid my-5 p-5">
-  <div class="container pt-5 pb-5">
-    <h2 class="poppins-bold-brown text-center">Tipos de Materiales</h2>
-    <owl-carousel-o
-      [options]="{ items: 3, margin: 10, loop: true, dots: false, nav: false, autoplay: true, autoplayTimeout: 3000, autoplayHoverPause: true }">
-      @for (item of productos; track item.id) {
-      <ng-container>
-        <ng-template carouselSlide>
-          <div class="service-item position-relative">
-            <img class="img-fluid" [src]="item.image" alt="{{ item.name }}">
-            <div class="service-text text-center">
-              <h4 class="text-white font-weight-medium px-3">{{ item.name }}</h4>
-              <p class="text-white px-3 mb-3">{{ item.description }}</p>
-              <div class="w-100 text-center p-4">
-                <a class="btn btn-primary" [routerLink]="['/productos', item.id]">Ver Producto</a>
-              </div>
-            </div>
-          </div>
-        </ng-template>
-      </ng-container>
-      }
-    </owl-carousel-o>
-  </div>
-</section>
+<app-carousel-productos></app-carousel-productos>
 
 <!-- Sección Únete a Nuestros Clientes Satisfechos -->
 <section class="container-fluid my-5 p-5  text-center">
