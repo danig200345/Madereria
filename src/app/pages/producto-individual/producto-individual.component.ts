@@ -1,13 +1,14 @@
 import { ProductosService } from './../../services/productos.service';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Producto } from '../../models/producto.model';
+import { CarouselProductosComponent } from '../carousel-productos/carousel-productos.component';
 
 @Component({
   selector: 'app-producto-individual',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule, CarouselProductosComponent],
   templateUrl: './producto-individual.component.html',
   styleUrls: ['./producto-individual.component.css']
 })

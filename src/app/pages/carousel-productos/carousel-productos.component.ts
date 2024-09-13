@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ProductosService } from '../../services/productos.service';
 import { Producto } from '../../models/producto.model';
 import { CarouselModule } from 'ngx-owl-carousel-o';
@@ -12,6 +12,8 @@ import { RouterModule } from '@angular/router';
   styleUrl: './carousel-productos.component.css'
 })
 export class CarouselProductosComponent {
+
+  @Input() title?: string
 
   productos: Producto[] = [];
 
