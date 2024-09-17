@@ -2970,8 +2970,8 @@ fieldset:disabled a.btn {
 
 .btn-green:hover {
   color: #fff;
-  background-color: #39c823;
-  border-color: #39c823;
+  background-color: #238614;
+  border-color: #1a5f10;
 }
 
 .btn-green:focus,
@@ -3001,12 +3001,12 @@ fieldset:disabled a.btn {
 .btn-green:not(:disabled):not(.disabled).active:focus,
 .show > .btn-green.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(14, 125, 20, 0.5);
-.btn-light {
-  color: #212529;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  .btn-light {
+    color: #212529;
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
 }
-
 .btn-light:hover {
   color: #212529;
   background-color: #ececec;
