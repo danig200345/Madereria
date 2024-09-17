@@ -15,8 +15,12 @@ import { CarouselProductosComponent } from '../carousel-productos/carousel-produ
 export class ProductoIndividualComponent implements OnInit {
   productId: number | null = null;
   product: Producto | undefined;
+  mainImage: string = ''; // Variable to hold the current main image
 
-  constructor(private route: ActivatedRoute, private productosService: ProductosService) { }
+  constructor(
+    private route: ActivatedRoute,
+    private productosService: ProductosService
+  ) { }
 
   ngOnInit(): void {
     this.productId = Number(this.route.snapshot.paramMap.get('id'));
@@ -28,8 +32,15 @@ export class ProductoIndividualComponent implements OnInit {
       this.productosService.getProductById(this.productId).subscribe(
         (data: Producto | undefined) => {
           this.product = data;
+          if (data) {
+            this.mainImage = data.image;
+          }
         }
       );
     }
+  }
+
+  updateMainImage(imageSrc: string): void {
+    this.mainImage = imageSrc;
   }
 }
