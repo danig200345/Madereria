@@ -1,51 +1,57 @@
 @defer () {
-<div class="container pb-5">
-  @if (product) {
-  <div class="row">
-    <div class="col-lg-5 mt-5">
-      <div class="card mb-3">
-        <img class="card-img img-fluid" [src]="product.image" alt="Card image cap" id="product-detail">
-      </div>
-      <!-- Si tienes un carrusel de imágenes, puedes añadirlo aquí -->
-      <app-carousel-productos></app-carousel-productos>
-    </div>
-    <div class="col-lg-7 mt-5">
-      <div class="card">
-        <div class="card-body">
-          <h1 class="h2">{{ product.name }}</h1>
-          <p class="h3 py-2">{{ product.price || '$0.00' }}</p>
-          <h6>Descripcion:</h6>
-          <p>{{ product.description }}</p>
-
-          <h6>Colores Disponibles:</h6>
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              @for (color of product.colors; track color) {
-              <span [ngClass]="color" class="product-color-dot float-start rounded-circle ms-1"></span>
-              }
-            </li>
-          </ul>
-
-
+<section class="container-fluid my-5">
+  <div class="container pb-5">
+    @if (product) {
+    <div class="row">
+      <div class="col-lg-5 mt-5">
+        <div class="card mb-3">
+          <img class="card-img img-fluid" [src]="product.image" alt="Card image cap" id="product-detail">
         </div>
+
+
+
       </div>
-    </div>
-  </div>
-  } @else {
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="bg-light p-5 shadow-sm rounded">
-          <p class="text-center text-muted font-weight-bold">Cargando...</p>
-          <div class="spinner-border text-primary d-block mx-auto" role="status">
-            <span class="visually-hidden"></span>
+      <div class="col-lg-7 mt-5">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="h2 poppins-bold-brown">{{ product.name }}</h1>
+            <p class="h3 py-2"></p>
+            <h6>Caracteristicas Sobresalientes:</h6>
+            <p>{{ product.description }}</p>
+
+            <h6>Colores Disponibles:</h6>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                @for (color of product.colors; track color) {
+                <span [ngClass]="color" class="product-color-dot float-start rounded-circle ms-1"></span>
+                }
+              </li>
+            </ul>
+
+
           </div>
         </div>
       </div>
     </div>
+
+
+    } @else {
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="bg-light p-5 shadow-sm rounded">
+            <p class="text-center text-muted font-weight-bold">Cargando...</p>
+            <div class="spinner-border text-primary d-block mx-auto" role="status">
+              <span class="visually-hidden"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    }
   </div>
-  }
-</div>
+</section>
+<app-carousel-productos [title]="'Mas tipos de Maderas'"></app-carousel-productos>
 }@placeholder {
 <div class="container-fluid mt-5">
   <div class="container">

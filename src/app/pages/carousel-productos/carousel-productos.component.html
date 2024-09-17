@@ -1,5 +1,5 @@
-<section class="container-fluid my-5 p-5">
-  <div class="container pt-5 pb-5">
+<section class="container-fluid my-1">
+  <div class="container pt-1 pb-5">
     @if (title) {
     <h2 class="poppins-bold-brown text-center">{{title}}</h2>
     }
@@ -22,7 +22,7 @@
               <img src="{{ item.image }}" class="card-img w-100" alt="{{ item.name }}" style="filter: brightness(0.5);">
               <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
                 <h4 class="card-title">{{ item.name }}</h4>
-                <p class="card-text">{{ item.description }}</p>
+                <p class="card-text">{{ item.descriptions }}</p>
                 <a class="btn btn-primary mt-3" [routerLink]="['/productos', item.id]">Ver Producto</a>
               </div>
             </div>
