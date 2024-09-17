@@ -10172,7 +10172,7 @@ h6,
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #6a460d;
+    background: none;
     height: 115%;
     width: 111%;
     z-index: -1;
