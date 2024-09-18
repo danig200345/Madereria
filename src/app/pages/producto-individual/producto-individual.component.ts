@@ -15,16 +15,17 @@ import { CarouselProductosComponent } from '../carousel-productos/carousel-produ
 export class ProductoIndividualComponent implements OnInit {
   productId: number | null = null;
   product: Producto | undefined;
-  mainImage: string = ''; // Variable to hold the current main image
+  mainImage: string = '';
 
-  constructor(
-    private route: ActivatedRoute,
-    private productosService: ProductosService
-  ) { }
+  constructor(private route: ActivatedRoute, private productosService: ProductosService) { }
 
   ngOnInit(): void {
-    this.productId = Number(this.route.snapshot.paramMap.get('id'));
-    this.loadProduct();
+    this.route.paramMap.subscribe(params => {
+      this.productId = Number(params.get('id'));
+      if (this.productId !== null) {
+        this.loadProduct();
+      }
+    });
   }
 
   loadProduct(): void {

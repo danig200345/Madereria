@@ -1,4 +1,4 @@
-import { ProductoIndividualComponent } from './producto-individual/producto-individual.component';
+
 import { Routes } from '@angular/router';
 
 export const routespages: Routes = [
