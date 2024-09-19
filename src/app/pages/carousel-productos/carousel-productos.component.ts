@@ -23,6 +23,22 @@ export class CarouselProductosComponent {
       this.productos = data;
     });
   }
+  scrollToTop() {
+    try {
+      setTimeout(() => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }, 400);
+    } catch (error) {
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+
+      }, 400)
+
+    }
+  }
 }
 
 

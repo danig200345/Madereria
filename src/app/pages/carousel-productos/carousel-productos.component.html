@@ -23,7 +23,8 @@
               <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
                 <h4 class="card-title">{{ item.name }}</h4>
                 <p class="card-text">{{ item.descriptions }}</p>
-                <a class="btn btn-primary mt-3" [routerLink]="['/productos', item.id]">Ver Producto</a>
+                <a class="btn btn-primary mt-3" [routerLink]="['/productos', item.id]" (click)="scrollToTop()">Ver
+                  Producto</a>
               </div>
             </div>
           </div>
