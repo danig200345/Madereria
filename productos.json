@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Madera de Encino",
-    "image": "imgs/329.jpg",
-    "description": "Calidad Superior: Nuestra madera de encino es conocida por su dureza y resistencia, lo que la hace ideal para una amplia variedad de aplicaciones, desde pisos hasta muebles de lujo. <br><br> Estética Impresionante: El encino proporciona un acabado visualmente impresionante con sus patrones de grano distintivos y tonalidades cálidas que enriquecen cualquier espacio. <br><br> Aplicaciones Versátiles Durabilidad y Resistencia: La madera de encino es excepcionalmente duradera, resistiendo el desgaste diario, lo que la hace ideal para pisos de alto tráfico y mobiliario que dure generaciones. <br><br> Elegancia Natural: Su atractivo natural la convierte en una opción popular para paneles, muebles finos y carpintería decorativa, elevando el estilo de cualquier hogar u oficina. Instalación y Mantenimiento. <br><br> Facilidad de Instalación: Aunque robusta, la madera de encino se trabaja fácilmente, permitiendo cortes precisos y un ensamblaje sin complicaciones. <br><br> Cuidado Sencillo: Con un mantenimiento adecuado, que incluye limpiezas periódicas y tratamientos con aceites o selladores, la madera de encino puede mantener su belleza por décadas. Transforma tu Espacio con Encino Optar por la madera de encino de Maderería Capilla significa elegir un material que no solo es duradero y funcional, sino también sumamente elegante. Su robustez y belleza natural garantizan que cada proyecto no solo sea estéticamente agradable, sino también duradero.",
+    "image": "imgs/encino.jpg",
+    "description": "Calidad y Resistencia: La madera de encino destaca por su dureza, ideal para pisos y muebles de lujo. <br><br> Estética: Su grano distintivo y tonos cálidos enriquecen cualquier espacio. <br><br> Aplicaciones Versátiles <br><br> Durabilidad: Resiste el desgaste diario, perfecta para pisos de alto tráfico y muebles duraderos. <br><br> Elegancia Natural: Es popular para paneles, muebles finos y carpintería decorativa, mejorando el estilo de cualquier hogar u oficina. <br><br> Instalación y Mantenimiento <br><br> Fácil de Instalar: A pesar de su robustez, es fácil de cortar y ensamblar. <br><br> Cuidado Sencillo: Con limpiezas y tratamientos, mantiene su belleza por décadas. <br><br> Transforma tu Espacio Optar por encino de Maderería Capilla garantiza un material duradero, funcional y elegante, que asegur proyectos visualmente atractivos y longevos.",
     "descriptions": "Madera",
     "colors": [
       "rojo",
@@ -14,8 +14,9 @@
   {
     "id": 2,
     "name": "Madera de Parota",
-    "image": "imgs/329.jpg",
-    "description": "Roble resistente",
+    "image": "imgs/parota.jpg",
+    "description": "Resistente: Altamente resistente a la putrefacción e insectos, ideal para muebles de exterior e interior duraderos. <br><br> Belleza Única: Sus vetas amplias y tonos entre dorado y rojo crean un impacto visual impresionante. <br><br> Uso Multifacético <br><br> Aplicación Versátil: Perfecta para mesas, puertas, paneles y revestimientos, tanto en interiores como exteriores, gracias a su resistencia climática. <br><br> Acabado Premium: Su textura suave y vetas destacadas permiten acabados de alta calidad que añaden elegancia. <br><br> Instalación y Cuidado <br><br> Fácil de Trabajar: A pesar de su dureza, se corta y ensambla fácilmente. <br><br> Mantenimiento Bajo: Requiere mínimos cuidados; un tratamiento ocasional con aceites preserva su color y brillo. <br><br> Embellece tu Espacio <br><br> Elegir Parota de Maderería Capilla significa obtener un material resistente, funcional y estéticamente incomparable, que añade calidez a cualquier entorno.",
+    "descriptions": "Madera",
     "colors": [
       "rojo",
       "azul",
@@ -25,8 +26,9 @@
   {
     "id": 3,
     "name": "Madera de Cedro",
-    "image": "imgs/329.jpg",
-    "description": "Abeto resistente",
+    "image": "imgs/cedro.jpg",
+    "description": "Durabilidad: Resistente a la descomposición e insectos, ideal para proyectos interiores y exteriores. <br><br> Atractivo Visual: Su tono cálido y grano aportan lujo y confort a cualquier espacio. <br><br> Usos Versátiles <br><br> Interior y Exterior: Perfecto para revestimientos, muebles, saunas y cajas de aromas, con propiedades aislantes y fácil manejo. <br><br> Acabado Excelente: Acepta diversos tratamientos que resaltan su belleza natural y protegen la madera a largo plazo. <br><br> Instalación y Mantenimiento <br><br> Fácil de Trabajar: Aunque robusto, es fácil de cortar y ensamblar en diferentes configuraciones. <br><br> Mantenimiento Sencillo: Con tratamientos periódicos, el cedro mantiene su esplendor y funcionalidad por años. <br><br> Embellece tu Espacio Optar por cedro de Maderería Capilla asegura un material práctico, duradero y visualmente impactante, ideal para proyectos de larga duración.",
+    "descriptions": "Madera",
     "colors": [
       "rojo",
       "azul",
