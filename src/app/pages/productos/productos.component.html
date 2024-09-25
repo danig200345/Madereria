@@ -29,7 +29,7 @@
 
     <div class="col-lg-9 space">
       <div class="row">
-        @for (item of productos | paginate: { itemsPerPage: 2, currentPage: p } ; track item.id) {
+        @for (item of productos | paginate: { itemsPerPage: 3, currentPage: p } ; track item.id) {
         <div class="col-md-4">
           <div class="card mb-4 rounded-0 hover" style="cursor: pointer;" [routerLink]="['/productos', item.id]">
             <div class="card rounded-0">
