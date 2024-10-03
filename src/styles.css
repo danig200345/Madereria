@@ -361,6 +361,16 @@ img {
   z-index: -1;
   transform: translate(5%, -5%); /* Ajusta según sea necesario */
 }
+.img-with-backgrounds {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #6a460d;
+  height: 115%;
+  width: 80%;
+  z-index: -1;
+  transform: translate(-22.5%, -5%); /* Ajusta según sea necesario */
+}
 
 svg {
   overflow: hidden;
@@ -551,10 +561,27 @@ h1,
 @media (max-width: 1200px) {
   h1,
   .h1 {
+    font-size: calc(1.8rem + 2.5vw) !important;
+  }
+}
+@media (max-width: 980px) {
+  h1,
+  .h1 {
+    font-size: calc(1.5rem + 2vw) !important;
+  }
+}
+@media (max-width: 723px) {
+  h1,
+  .h1 {
+    font-size: calc(1.2rem + 1.8vw) !important;
+  }
+}
+@media (max-width: 600px) {
+  h1,
+  .h1 {
     font-size: calc(0.8rem + 1.5vw) !important;
   }
 }
-
 h2,
 .h2 {
   font-size: 2rem;
@@ -618,7 +645,7 @@ h6,
   }
 }
 .display-2-c {
-  font-size: 5.25rem;
+  font-size: 4.25rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -633,7 +660,7 @@ h6,
     font-size: calc(1.675rem + 5.1vw);
   }
   .display-2-c {
-    font-size: calc(1.675rem + 5.1vw);
+    font-size: calc(1.675rem + 6.1vw);
   }
 }
 
@@ -10215,6 +10242,16 @@ h6,
     width: 111%;
     z-index: -1;
     transform: translate(5%, -5%); /* Ajusta según sea necesario */
+  }
+  .img-with-backgrounds {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    height: 115%;
+    width: 111%;
+    z-index: -1;
+    transform: translate(-22.5%, -5%); /* Ajusta según sea necesario */
   }
 }
 
