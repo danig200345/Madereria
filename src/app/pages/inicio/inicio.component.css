@@ -78,7 +78,12 @@
 .service-text p {
   font-size: 14px;
 }
-
+@media (max-width: 767px) {
+  .btn-font {
+    font-size: 0.6rem;
+    margin-top: 1.29rem;
+  }
+}
 @media (max-width: 1231.5px) {
   .tab {
     text-align: left;
