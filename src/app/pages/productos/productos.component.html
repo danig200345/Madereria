@@ -5,21 +5,22 @@
 <div class="container py-5">
   <div class="row">
     <div class="col-lg-3">
-      <h2 class="pb-4 poppins-regular">Categorias</h2>
       <ul class="list-unstyled">
-        <li class="pb-3">
+        <li class="pt-5 pb-3">
           <a class="collapsed d-flex justify-content-between h3 text-decoration-none poppins-regular"
             data-bs-toggle="collapse" href="#collapseGender" role="button" aria-expanded="false"
-            aria-controls="collapseGender">
-            Maderas
+            aria-controls="collapseGender">Categorias
             <i class="fa fa-fw fa-chevron-circle-down mt-1" style="color: #4c2f00"></i>
           </a>
           <ul class="collapse list-unstyled ps-3" id="collapseGender">
             <li>
-              <a class="text-decoration-none poppins-regular" href="#">Maderas solidas</a>
+              <a class="text-decoration-none poppins-regular" style="cursor: pointer;"
+                (click)="onSelectCategory($event)">Maderas
+                solidas</a>
             </li>
             <li>
-              <a class="text-decoration-none poppins-regular" href="#">Prefabricados</a>
+              <a class="text-decoration-none poppins-regular" style="cursor: pointer;"
+                (click)="onSelectCategory($event)">Prefabricados</a>
             </li>
           </ul>
         </li>

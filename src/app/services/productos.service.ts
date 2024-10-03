@@ -17,6 +17,13 @@ export class ProductosService {
     return this.http.get<Producto[]>(this.collection);
   }
 
+  //Método para obtener los productos por categoria
+  getProductsByCategory(category: string): Observable<Producto[]> {
+    return this.http.get<Producto[]>(this.collection).pipe(
+      map((productos: Producto[]) => productos.filter(producto => producto.category === category)));
+
+  }
+
   // Método para obtener un producto específico por su ID
   getProductById(id: number): Observable<Producto | undefined> {
     return this.http.get<Producto[]>(this.collection).pipe(
