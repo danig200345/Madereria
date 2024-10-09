@@ -9,7 +9,7 @@
         loop: true,
         dots: false,
         nav: false,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
         responsive: { '0': { items: 1 }, '576': { items: 2 }, '992': { items: 3 } }
@@ -19,7 +19,10 @@
         <ng-template carouselSlide>
           <div class="item">
             <div class="card text-white">
-              <img src="{{ item.image }}" class="card-img w-100" alt="{{ item.name }}" style="filter: brightness(0.5);">
+              <div class="rounded-0">
+                <img src="{{ item.image }}" class="card-img w-100" alt="{{ item.name }}"
+                  style=" filter: brightness(0.5); object-position: center; object-fit: cover; height: 640px;">
+              </div>
               <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
                 <h4 class="card-title">{{ item.name }}</h4>
                 <p class="card-text">{{ item.descriptions }}</p>
