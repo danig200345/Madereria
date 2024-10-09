@@ -79,6 +79,24 @@
   font-size: 14px;
 }
 @media (max-width: 767px) {
+  .grid-container {
+    display: block; /* Cambiamos a bloque para que las imágenes se dispongan verticalmente */
+    width: 100%; /* Aseguramos que el contenedor ocupe todo el ancho */
+    height: auto; /* Permitir que la altura se ajuste al contenido */
+    overflow: hidden; /* Asegura que no se desborde el contenido */
+  }
+
+  .grid-item {
+    margin-bottom: 10px;
+  }
+
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
   .btn-font {
     font-size: 0.6rem;
     margin-top: 1.29rem;
