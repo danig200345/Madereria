@@ -78,7 +78,19 @@
 .service-text p {
   font-size: 14px;
 }
+.img img {
+  width: 100%;
+  height: 100%;
+}
 @media (max-width: 767px) {
+  .btn-font {
+    font-size: 0.6rem;
+    margin-top: 1.29rem;
+  }
+  .img img {
+    width: 100%;
+    height: 85vh;
+  }
   .grid-container {
     display: block; /* Cambiamos a bloque para que las imágenes se dispongan verticalmente */
     width: 100%; /* Aseguramos que el contenedor ocupe todo el ancho */
@@ -94,12 +106,11 @@
     width: 100%;
     height: auto;
   }
-}
-
-@media (max-width: 767px) {
-  .btn-font {
-    font-size: 0.6rem;
-    margin-top: 1.29rem;
+  .tab {
+    text-align: left;
+    line-height: 1.2;
+    line-break: normal;
+    font-size: 2rem;
   }
 }
 @media (max-width: 1231.5px) {
@@ -124,13 +135,5 @@
     line-height: 1.5;
     line-break: normal;
     font-size: 2.2rem;
-  }
-}
-@media (max-width: 767px) {
-  .tab {
-    text-align: left;
-    line-height: 1.2;
-    line-break: normal;
-    font-size: 2rem;
   }
 }
