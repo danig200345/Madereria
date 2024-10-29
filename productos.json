@@ -95,8 +95,8 @@
     "name": "Aglomerado",
     "image": "imgs/aglomerado.jpg",
     "description": "Económico y Versátil: El aglomerado es una opción de bajo costo, ideal para proyectos que requieren funcionalidad y durabilidad.<br><br>Superficie Lisa: Perfecta para aplicar acabados como pintura, laminado o chapado, logrando resultados estéticos.<br><br>Aplicaciones Comunes<br><br>Muebles y Decoración: Utilizado en muebles, estanterías y paneles decorativos, gracias a su facilidad de corte y ensamblaje.<br><br>Usos Interiores: Ideal para carpintería y mobiliario en interiores no expuestos a la humedad.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: Permite cortes precisos y ensamblajes rápidos, ideal para proyectos ágiles.<br><br>Mantenimiento Sencillo: Requiere cuidados básicos como limpieza y evitar la humedad para mayor durabilidad.<br><br>Optimiza tus Proyectos: El aglomerado de Maderería Capilla es una solución eficiente y económica para proyectos de carpintería y decoración.",
-    "descriptions": "Madera",
-    "category": "Maderas solidas",
+    "descriptions": "Aglomerado",
+    "category": "Aglomerados",
     "colors": [
       "rojo",
       "azul",
@@ -187,7 +187,7 @@
     "image": "imgs/celotex.jpg",
     "description": "Aislante y Versátil: El celotex es ligero y eficiente para el aislamiento térmico y acústico, ideal para construcción y remodelación.<br><br>Sostenible: Hecho con fibras naturales, es una opción ecológica que reduce el impacto ambiental.<br><br>Aplicaciones Comunes<br><br>Aislante en Construcción: Usado en techos, paredes y pisos, mejora la eficiencia energética y el confort.<br><br>Decoración y Revestimientos: También se emplea en paneles decorativos, aportando aislamiento y estilo.<br><br>Instalación y Mantenimiento<br><br>Fácil de Manipular: Su ligereza facilita su corte e instalación, ideal para proyectos rápidos.<br><br>Mantenimiento Bajo: Ofrece protección con poco cuidado, siendo duradero.<br><br>Optimiza tus Proyectos: El celotex de Maderería Capilla es la opción perfecta para proyectos sostenibles y eficientes en aislamiento.",
     "descriptions": "Madera",
-    "category": "Maderas solidas",
+    "category": "Paneles",
     "colors": [
       "rojo",
       "azul",
@@ -326,11 +326,11 @@
   },
   {
     "id": 26,
-    "name": "Madera okume",
+    "name": "Triplay okume",
     "image": "imgs/okum.jpg",
     "description": "Conocida por su ligereza y fácil manejo. Ideal para proyectos que requieren acabados finos, como muebles y carpintería ligera.<br><br>Características Clave<br><br>Ligera y Fácil de Trabajar: Su ligereza la hace perfecta para cortes precisos y manipulación sencilla.<br><br>Superficie Suave: El grano fino y uniforme es ideal para acabados elegantes como pintura o barniz.<br><br>Usos Comunes<br><br>Muebles y Decoración: Utilizada en muebles y paneles, proporcionando un acabado refinado.<br><br>Aplicaciones Interiores: Perfecta para carpintería decorativa y mobiliario por su facilidad de acabado.<br><br>Instalación y Mantenimiento<br><br>Fácil de Manipular: Se corta y ensambla sin esfuerzo, ideal para cualquier proyecto.<br><br>Mantenimiento Simple: Solo requiere limpieza regular y sellado ocasional para mantener su apariencia.<br><br>Madera Okume para tus Proyectos: La madera okume de Maderería Capilla es perfecta para proyectos ligeros con un acabado profesional.",
     "descriptions": "Madera",
-    "category": "Maderas solidas",
+    "category": "Triplay",
     "colors": [
       "rojo",
       "azul",
@@ -339,11 +339,11 @@
   },
   {
     "id": 27,
-    "name": "Madera Cimbra",
+    "name": "Triplay Cimbra",
     "image": "imgs/cimbra.jpg",
     "description": "En Maderería Capilla, te ofrecemos madera cimbra, ideal para proyectos de construcción. Esta madera se usa principalmente en encofrados y estructuras temporales, siendo una opción económica y robusta.<br><br>Características Clave<br><br>Resistencia y Durabilidad: La cimbra soporta grandes pesos y es reutilizable en diversas fases de construcción.<br><br>Económica y Funcional: Es perfecta para proyectos que requieren estructuras temporales sin sacrificar resistencia.<br><br>Usos Comunes<br><br>Estructuras Temporales: Usada en encofrados para muros, columnas y losas de concreto.<br><br>Andamios y Refuerzos: Se emplea también en la creación de andamios temporales durante obras.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: Se corta y manipula fácilmente, facilitando su uso en distintas fases de construcción.<br><br>Reutilizable: Con buen cuidado, puede reutilizarse en varios proyectos, siendo eficiente y económica.<br><br>Madera Cimbra para tus Proyectos: En Maderería Capilla, la madera cimbra es la opción ideal para quienes buscan un material resistente, reutilizable y de bajo costo.",
     "descriptions": "Madera",
-    "category": "Maderas solidas",
+    "category": "Triplay",
     "colors": [
       "rojo",
       "azul",
@@ -520,6 +520,97 @@
       "blanco",
       "negro",
       "gris"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Triplay Caobilla",
+    "image": "imgs/caobilla.jpg",
+    "description": "La caobilla es apreciada por su estética refinada y resistencia, ideal para proyectos que requieren un acabado de lujo sin comprometer la funcionalidad.<br><br>Resistente a la Humedad: Ofrece una excelente durabilidad en ambientes interiores protegidos.<br><br>Aplicaciones Comunes<br><br>Muebles y Puertas: Ideal para la fabricación de muebles finos y puertas, aportando elegancia y solidez.<br><br>Revestimientos Decorativos: Perfecto para paneles decorativos que buscan destacar en interiores con un acabado cálido y sofisticado.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: Se corta y ensambla fácilmente, siendo ideal para proyectos que demandan precisión.<br><br>Mantenimiento Bajo: Solo requiere cuidados simples, como limpieza regular y tratamientos de barniz para mantener su brillo.<br><br>Eleva tus Proyectos<br><br>El triplay de caobilla de Maderería Capilla es una opción superior para proyectos que necesitan elegancia y resistencia.",
+    "descriptions": "Triplay",
+    "category": "Triplay",
+    "colors": [
+      "rojo",
+      "azul",
+      "negro"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Triplay Encino",
+    "image": "imgs/encino.jpg",
+    "description": "El triplay de encino es una opción premium que combina resistencia con una apariencia sofisticada, ideal para proyectos de alta gama.<br><br>Durabilidad Superior: Su dureza lo convierte en un material perfecto para aplicaciones que requieren resistencia al desgaste.<br><br>Aplicaciones Comunes<br><br>Muebles y Revestimientos: Perfecto para muebles finos y paneles decorativos que buscan un acabado de lujo.<br><br>Carpintería de Alta Calidad: Usado en puertas, pisos y carpintería estructural por su resistencia y atractivo visual.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: A pesar de su robustez, es fácil de cortar y ensamblar para trabajos de precisión.<br><br>Mantenimiento Básico: Requiere tratamientos periódicos con barniz o aceites para preservar su color y textura.<br><br>Añade Valor a tus Proyectos<br><br>El triplay de encino de Maderería Capilla garantiza durabilidad y un acabado elegante para proyectos exigentes.",
+    "descriptions": "Triplay",
+    "category": "Triplay",
+    "colors": [
+      "rojo",
+      "azul",
+      "negro"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Triplay Parota",
+    "image": "imgs/parota.jpg",
+    "description": "El triplay de parota combina resistencia y estética, siendo una opción ideal para proyectos que buscan un acabado exótico y duradero.<br><br>Resistente a la Humedad: Su durabilidad lo convierte en una opción adecuada para interiores y exteriores.<br><br>Aplicaciones Comunes<br><br>Muebles de Lujo y Puertas: Perfecto para muebles de alta gama y puertas, aportando un toque de lujo natural.<br><br>Decoración y Paneles: Ideal para paneles decorativos que buscan un acabado cálido y elegante.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: A pesar de su resistencia, es fácil de cortar y ensamblar, lo que facilita su uso en proyectos detallados.<br><br>Mantenimiento Básico: Solo requiere cuidados ocasionales, como tratamiento con aceites para preservar su color.<br><br>Añade Belleza Natural a tus Proyectos<br><br>El triplay de parota de Maderería Capilla es ideal para proyectos que buscan una combinación de durabilidad y estética natural.",
+    "descriptions": "Triplay",
+    "category": "Triplay",
+    "colors": [
+      "rojo",
+      "azul",
+      "negro"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Triplay Rosa Morada",
+    "image": "imgs/rosa_morada.jpg",
+    "description": "El triplay de rosa morada ofrece una apariencia única y vibrante, perfecta para proyectos exclusivos que buscan un toque distintivo.<br><br>Resistente al Desgaste: Su dureza lo convierte en una excelente opción para aplicaciones de alto tráfico.<br><br>Aplicaciones Comunes<br><br>Muebles de Alta Gama: Ideal para muebles, pisos y paneles decorativos que requieren una estética lujosa y duradera.<br><br>Proyectos Decorativos: Perfecto para interiores que buscan destacar con un material exótico.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: A pesar de su robustez, permite un corte preciso y detallado.<br><br>Mantenimiento Bajo: Solo requiere tratamientos básicos para mantener su color vibrante y resistencia.<br><br>Transforma tus Espacios con Rosa Morada<br><br>El triplay de rosa morada de Maderería Capilla es la elección perfecta para quienes buscan exclusividad y durabilidad en sus proyectos.",
+    "descriptions": "Triplay",
+    "category": "Triplay",
+    "colors": [
+      "rojo",
+      "azul",
+      "negro"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Triplay Birch Abedul",
+    "image": "imgs/birch_abedul.jpg",
+    "description": "El triplay de abedul es fuerte y resistente, ideal para proyectos que requieren un acabado claro y limpio, con una excelente capacidad de resistencia a la deformación.<br><br>Estilo Moderno: Su grano claro lo convierte en una excelente opción para interiores modernos y minimalistas.<br><br>Aplicaciones Comunes<br><br>Muebles y Pisos: Perfecto para muebles finos, gabinetes y pisos, donde se busca una estética clara y pulida.<br><br>Paneles Decorativos: Ideal para revestimientos interiores que demandan una apariencia ligera y natural.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: Se corta y ensambla fácilmente, permitiendo un acabado limpio y detallado.<br><br>Mantenimiento Básico: Requiere limpiezas regulares y tratamientos simples para conservar su brillo natural.<br><br>Mejora tus Proyectos con Abedul<br><br>El triplay de abedul de Maderería Capilla es ideal para proyectos que requieren un material duradero con un acabado claro y elegante.",
+    "descriptions": "MDF",
+    "category": "Triplay",
+    "colors": [
+      "blanco",
+      "marrón",
+      "gris"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Triplay Poplar Álamo",
+    "image": "imgs/poplar_alamo.jpg",
+    "description": "El triplay de álamo se caracteriza por su ligereza y facilidad de uso, ideal para proyectos que necesitan flexibilidad y resistencia moderada.<br><br>Superficie Uniforme: Su textura fina permite aplicar una variedad de acabados, como barniz o pintura.<br><br>Aplicaciones Comunes<br><br>Muebles Ligeros: Usado en la fabricación de muebles y estructuras que requieren un material ligero y fácil de manipular.<br><br>Revestimientos: Ideal para paneles interiores y decorativos que buscan una apariencia suave y uniforme.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: Su peso liviano permite cortes rápidos y ensamblajes sencillos, lo que lo convierte en una opción ágil para diversos proyectos.<br><br>Mantenimiento Simple: Requiere pocos cuidados y mantiene su aspecto con limpiezas periódicas.<br><br>Optimizando Proyectos con Álamo<br><br>El triplay de álamo de Maderería Capilla es la opción perfecta para proyectos que necesitan un material ligero, fácil de trabajar y estéticamente atractivo.",
+    "descriptions": "Triplay",
+    "category": "Triplay",
+    "colors": [
+      "rojo",
+      "azul",
+      "negro"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Triplay Cedro",
+    "image": "imgs/cedro_triplay.jpg",
+    "description": "El triplay de cedro es apreciado por su resistencia natural a insectos y su distintivo aroma, lo que lo convierte en una opción excelente para proyectos interiores de alta calidad.<br><br>Durabilidad Natural: Su resistencia a la humedad lo hace ideal para espacios con cambios de temperatura o en zonas húmedas.<br><br>Aplicaciones Comunes<br><br>Muebles y Revestimientos: Perfecto para la fabricación de muebles de alta gama, puertas y revestimientos decorativos que requieren durabilidad y estilo.<br><br>Carpintería de Alta Calidad: Ideal para proyectos que buscan combinar estética y funcionalidad con un material resistente.<br><br>Instalación y Mantenimiento<br><br>Fácil de Manipular: Se corta y ensambla con facilidad, lo que lo hace ideal para proyectos detallados.<br><br>Mantenimiento Bajo: Solo requiere limpiezas básicas y cuidados simples para mantener su durabilidad y apariencia.<br><br>Añade Distinción a tus Proyectos<br><br>El triplay de cedro de Maderería Capilla es la elección perfecta para quienes buscan resistencia, durabilidad y un acabado aromático y elegante.",
+    "descriptions": "Triplay",
+    "category": "Triplay",
+    "colors": [
+      "rojo",
+      "azul",
+      "negro"
     ]
   }
 ]
