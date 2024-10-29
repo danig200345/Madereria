@@ -36,5 +36,6 @@ export class ProductosComponent {
         this.productos = data;
       });
     }
+    this.p = 1;
   }
 }
