@@ -380,13 +380,146 @@
     "id": 30,
     "name": "Corcho Natural",
     "image": "imgs/corcho_natural.jpg",
-    "description": "Elegancia y Durabilidad: La caobilla destaca por su resistencia y tonos cálidos, aportando sofisticación a cualquier espacio.<br><br>Acabado Suave: Su superficie lisa permite acabados de alta calidad, realzando su color natural con un aspecto renovado.<br><br>Aplicaciones Versátiles<br><br>Ideal para Interiores: Perfecta para hogares y oficinas, añade un toque de lujo y distinción.<br><br>Estética Clásica: Combina con estilos decorativos modernos y tradicionales.<br><br>Instalación y Mantenimiento<br><br>Fácil de Instalar: Su ligereza facilita un montaje rápido y sin complicaciones.<br><br>Mantenimiento Bajo: Solo requiere limpieza ocasional y tratamientos simples para conservar su apariencia.<br><br>Optar por una puerta de caobilla garantiza elegancia y funcionalidad, embelleciendo cualquier espacio.",
-    "descriptions": "Puerta",
+    "description": "El corcho natural es un material ecológico y altamente eficiente como aislante térmico y acústico, perfecto para proyectos que buscan reducir el impacto ambiental sin sacrificar funcionalidad.<br><br>Ligero y Resistente: A pesar de su ligereza, el corcho es duradero, flexible y ofrece una excelente resistencia al desgaste, lo que lo convierte en una opción versátil para diversas aplicaciones.<br><br>Aplicaciones Comunes<br><br>Aislamiento Térmico y Acústico: Usado en revestimientos de paredes, techos y suelos, el corcho natural mejora la eficiencia energética y reduce el ruido en viviendas, oficinas y locales comerciales.<br><br>Paneles Decorativos: También es ideal para crear paneles decorativos que aportan textura y una estética cálida y natural a los interiores.<br><br>Instalación y Mantenimiento<br><br>Fácil de Instalar: Su ligereza permite una instalación rápida y sencilla, ya sea en rollos o en paneles, adaptándose a diferentes superficies y proyectos.<br><br>Mantenimiento Bajo: Requiere pocos cuidados, solo limpieza regular y, en algunos casos, un sellado periódico para mantener su apariencia y durabilidad.<br><br>Aporta Eficiencia y Sostenibilidad a tus Proyectos<br><br>El corcho natural de Maderería Capilla es la elección perfecta para proyectos que buscan un material ecológico y eficaz para el aislamiento y la decoración.",
+    "descriptions": "Aislamiento",
     "category": "Corcho",
     "colors": [
       "rojo",
       "azul",
       "negro"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Corcho con Melamina",
+    "image": "imgs/corcho_melamina.jpg",
+    "description": "El corcho con recubrimiento de melamina combina las propiedades aislantes del corcho con la resistencia y variedad de acabados de la melamina, lo que lo hace ideal para proyectos que buscan durabilidad y estilo en uno.<br><br>Aislante y Resistente: Proporciona las ventajas térmicas y acústicas del corcho con la adición de una superficie resistente a arañazos, manchas y desgaste, haciéndolo perfecto para aplicaciones que requieren un uso intensivo.<br><br>Aplicaciones Comunes<br><br>Paneles y Revestimientos: Ideal para paredes y techos en oficinas, viviendas o espacios comerciales donde se necesite aislamiento acústico o térmico con un acabado moderno y elegante.<br><br>Muebles y Decoración: Usado en la fabricación de muebles y elementos decorativos que combinan estética con la funcionalidad aislante del corcho y la resistencia de la melamina.<br><br>Instalación y Mantenimiento<br><br>Fácil de Instalar: Su flexibilidad y ligereza permiten un montaje rápido en cualquier tipo de superficie, haciendo que sea perfecto para proyectos que necesitan eficiencia y rapidez.<br><br>Mantenimiento Simple: La capa de melamina facilita la limpieza y reduce el mantenimiento, ofreciendo una superficie resistente a largo plazo.<br><br>Añade Estilo y Aislamiento a tus Proyectos<br><br>El corcho con melamina de Maderería Capilla es la opción ideal para quienes buscan combinar el estilo moderno con la funcionalidad aislante del corcho, proporcionando una solución eficiente y resistente para diversos espacios.",
+    "descriptions": "Panel",
+    "category": "Corcho",
+    "colors": [
+      "blanco",
+      "negro",
+      "gris"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Panel Ranurado",
+    "image": "imgs/panel_ranurado.jpg",
+    "description": "El panel ranurado es ideal para soluciones de exhibición y almacenamiento, permitiendo organizar productos o herramientas de manera eficiente y ordenada.<br><br>Personalizable: Sus ranuras permiten agregar ganchos, repisas y otros accesorios de manera flexible, adaptándose a las necesidades de cada espacio.<br><br>Aplicaciones Comunes<br><br>Exhibición en Tiendas: Perfecto para exhibidores de productos en tiendas minoristas, donde se busca optimizar el espacio con una presentación limpia y funcional.<br><br>Organización de Espacios: Usado en talleres, garajes o cualquier área que necesite un sistema modular de almacenamiento vertical.<br><br>Instalación y Mantenimiento<br><br>Fácil de Instalar: Se monta fácilmente en paredes o estructuras, ofreciendo una solución rápida y adaptable para la organización.<br><br>Mantenimiento Bajo: Solo requiere una limpieza ocasional para mantener su apariencia y funcionalidad.<br><br>Organiza con Eficiencia<br><br>El panel ranurado de Maderería Capilla es la solución ideal para quienes buscan una forma flexible y eficiente de exhibir y organizar productos o herramientas.",
+    "descriptions": "Panel",
+    "category": "Paneles",
+    "colors": [
+      "gris",
+      "negro",
+      "azul"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Panelboard Composer",
+    "image": "imgs/panelboard_composer.jpg",
+    "description": "El panelboard composer es un material compuesto altamente resistente, ideal para proyectos de construcción y carpintería que requieren un panel de alta durabilidad y estabilidad.<br><br>Superficie Uniforme: Su estructura sólida y lisa permite aplicar acabados como pintura o barniz, lo que lo hace ideal tanto para interiores como exteriores protegidos.<br><br>Aplicaciones Comunes<br><br>Construcción y Revestimientos: Usado en la fabricación de paneles de pared, techos y estructuras que requieren una base sólida y duradera.<br><br>Proyectos Decorativos: Ideal para revestimientos interiores, proporcionando una superficie perfecta para aplicar acabados decorativos.<br><br>Instalación y Mantenimiento<br><br>Fácil de Manipular: Se corta y ensambla fácilmente, lo que permite su aplicación en una amplia variedad de proyectos de carpintería y construcción.<br><br>Mantenimiento Simple: Solo requiere limpieza básica y cuidados ocasionales para mantener su durabilidad y apariencia.<br><br>Aumenta la Durabilidad de tus Proyectos<br><br>El panelboard composer de Maderería Capilla es una solución resistente y adaptable, ideal para proyectos de construcción y carpintería que requieren un material robusto y versátil.",
+    "descriptions": "Panel",
+    "category": "Paneles",
+    "colors": [
+      "blanco",
+      "gris",
+      "marrón"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Panel Celotex (Impregnado y Natural)",
+    "image": "imgs/panel_celotex.jpg",
+    "description": "El celotex, ya sea impregnado o natural, es un material ligero y altamente eficiente para el aislamiento térmico y acústico, ideal para mejorar la eficiencia energética en proyectos de construcción.<br><br>Opciones Sostenibles: El celotex natural está hecho de fibras recicladas y renovables, lo que lo convierte en una opción respetuosa con el medio ambiente, mientras que el celotex impregnado ofrece mayor resistencia a la humedad y durabilidad.<br><br>Aplicaciones Comunes<br><br>Aislante en Construcción: Usado en paredes, techos y pisos, mejora el confort térmico y acústico, siendo ideal para viviendas, oficinas y locales comerciales.<br><br>Revestimientos y Paneles Decorativos: También se utiliza en paneles decorativos, proporcionando un acabado visualmente atractivo y funcional, especialmente en proyectos que buscan aislamiento.<br><br>Instalación y Mantenimiento<br><br>Fácil de Instalar: Su ligereza y manejabilidad permiten una instalación rápida y eficiente, lo que reduce los tiempos de obra.<br><br>Mantenimiento Bajo: Requiere pocos cuidados y proporciona protección duradera contra el calor, el ruido y, en su versión impregnada, la humedad.<br><br>Mejora la Eficiencia Energética de tus Proyectos<br><br>El celotex de Maderería Capilla es la opción ideal para quienes buscan un material eficiente, versátil y sostenible en proyectos de aislamiento térmico y acústico.",
+    "descriptions": "Aislamiento",
+    "category": "Paneles",
+    "colors": [
+      "verde",
+      "azul",
+      "gris"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Aglomerado Natural",
+    "image": "imgs/aglomerado_natural.jpg",
+    "description": "El aglomerado natural es una opción accesible y funcional, ideal para proyectos de carpintería y construcción que requieren un material duradero y fácil de trabajar.<br><br>Superficie Suave: Su estructura homogénea permite aplicar acabados como pintura, barniz o laminado, proporcionando un aspecto limpio y profesional en diversos proyectos.<br><br>Aplicaciones Comunes<br><br>Muebles y Revestimientos: Perfecto para la fabricación de muebles, paneles decorativos y estanterías, donde se busca una solución económica y práctica.<br><br>Carpintería Interior: Ideal para proyectos interiores como armarios, mesas y particiones que no están expuestas a la humedad.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: Su estructura compacta facilita el corte y el ensamblaje, lo que lo convierte en una excelente opción para proyectos de carpintería detallada y de gran volumen.<br><br>Mantenimiento Sencillo: Solo requiere cuidados básicos como limpieza regular y protección contra la humedad para asegurar su durabilidad.<br><br>Optimiza tus Proyectos<br><br>El aglomerado natural de Maderería Capilla es la opción perfecta para proyectos que necesitan un material accesible y versátil con aplicaciones múltiples en carpintería y construcción.",
+    "descriptions": "Aglomerado",
+    "category": "Aglomerados",
+    "colors": [
+      "blanco",
+      "negro",
+      "gris"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Aglomerado con Melamina",
+    "image": "imgs/aglomerado_con_melamina.jpg",
+    "description": "El aglomerado con melamina combina la estructura resistente del aglomerado con una capa protectora de melamina, ideal para proyectos que requieren un acabado resistente, moderno y de bajo mantenimiento.<br><br>Variedad de Colores y Acabados: Disponible en una amplia gama de colores y texturas, este aglomerado se adapta a una gran variedad de estilos y proyectos, ofreciendo soluciones estéticas y funcionales.<br><br>Aplicaciones Comunes<br><br>Muebles de Uso Diario: Ideal para la fabricación de muebles como armarios, escritorios y estanterías, donde se requiere una superficie resistente a arañazos, golpes y manchas.<br><br>Revestimientos y Paneles Decorativos: Perfecto para revestimientos de paredes y paneles decorativos en espacios que buscan combinar estilo y funcionalidad, como oficinas y hogares.<br><br>Instalación y Mantenimiento<br><br>Fácil de Instalar: Su estructura y capa de melamina facilitan el corte y ensamblaje, proporcionando rapidez y precisión en proyectos de carpintería.<br><br>Mantenimiento Bajo: Solo requiere una limpieza regular con un paño húmedo, sin necesidad de tratamientos adicionales, lo que garantiza una durabilidad a largo plazo.<br><br>Añade Estilo y Resistencia a tus Proyectos<br><br>El aglomerado con melamina de Maderería Capilla es la solución ideal para quienes buscan un material moderno, resistente y de bajo mantenimiento, perfecto para muebles y revestimientos con una amplia gama de acabados.",
+    "descriptions": "Aglomerado",
+    "category": "Aglomerados",
+    "colors": [
+      "azul",
+      "verde",
+      "gris"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "MDF Natural",
+    "image": "imgs/mdf_natural.jpg",
+    "description": "El MDF natural es un material resistente y fácil de trabajar, ideal para una amplia variedad de proyectos de carpintería y construcción interior.<br><br>Superficie Lisa: Su superficie suave y uniforme permite acabados finos como pintura, barniz o chapado, logrando un aspecto limpio y profesional.<br><br>Aplicaciones Comunes<br><br>Muebles y Revestimientos: Ideal para la fabricación de muebles, estanterías y paneles decorativos por su versatilidad y facilidad de manipulación.<br><br>Carpintería Interior: Perfecto para proyectos que no requieren exposición a la humedad, como armarios, puertas y particiones interiores.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: Su estructura homogénea facilita el corte, ensamblaje y manipulación, haciendo que sea perfecto para proyectos de carpintería detallada.<br><br>Mantenimiento Sencillo: Solo requiere limpieza regular y cuidados básicos para mantener su apariencia y funcionalidad.<br><br>Optimiza tus Proyectos<br><br>El MDF natural de Maderería Capilla es la opción ideal para proyectos que requieren un material versátil, resistente y fácil de personalizar.",
+    "descriptions": "MDF",
+    "category": "MDF",
+    "colors": [
+      "blanco",
+      "marrón",
+      "gris"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "MDF Enchapado (Parota, Okumé, Encino y Nogal)",
+    "image": "imgs/mdf_enchapado.jpg",
+    "description": "El MDF enchapado combina la resistencia del MDF con la belleza natural de las maderas nobles como parota, okumé, encino y nogal, ofreciendo un acabado sofisticado para proyectos de alta calidad.<br><br>Acabado de Lujo: La capa de madera natural en el enchapado permite obtener la apariencia de madera maciza con la estabilidad y facilidad de uso del MDF.<br><br>Aplicaciones Comunes<br><br>Muebles Finos y Revestimientos: Ideal para la fabricación de muebles, paneles decorativos y revestimientos interiores que requieren un acabado elegante y duradero.<br><br>Proyectos de Alta Gama: Perfecto para carpintería que busca un toque de distinción, combinando estética y funcionalidad.<br><br>Instalación y Mantenimiento<br><br>Fácil de Manipular: Se corta y ensambla fácilmente, permitiendo obtener acabados detallados y precisos en proyectos exigentes.<br><br>Mantenimiento Simple: Requiere cuidados básicos como limpieza regular y, si es necesario, tratamientos ocasionales con barniz para mantener el brillo de la madera natural.<br><br>Eleva tus Proyectos<br><br>El MDF enchapado de Maderería Capilla combina la belleza de las maderas nobles con la practicidad del MDF, perfecto para proyectos que requieren un acabado de lujo.",
+    "descriptions": "MDF",
+    "category": "MDF",
+    "colors": [
+      "parota",
+      "okumé",
+      "encino",
+      "nogal"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "MDF Grabado",
+    "image": "imgs/mdf_grabado.jpg",
+    "description": "El MDF grabado es ideal para proyectos que buscan un acabado estético distintivo, permitiendo crear texturas y patrones únicos en la superficie.<br><br>Alta Precisión: El grabado en MDF permite obtener diseños detallados y precisos, aportando un toque especial a muebles, paneles y revestimientos.<br><br>Aplicaciones Comunes<br><br>Muebles y Decoración: Perfecto para muebles decorativos, paneles personalizados y revestimientos que buscan destacar por su diseño.<br><br>Proyectos Creativos: Ideal para carpintería donde se desea incluir patrones o texturas únicas que aporten un valor decorativo adicional.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: A pesar de sus grabados, se mantiene fácil de cortar y ensamblar, siendo ideal para proyectos de carpintería creativa.<br><br>Mantenimiento Bajo: Requiere solo limpieza regular para mantener el diseño grabado visible y en buenas condiciones.<br><br>Agrega Detalles Únicos a tus Proyectos<br><br>El MDF grabado de Maderería Capilla es la opción perfecta para quienes buscan un toque creativo y personalizado en sus proyectos de carpintería.",
+    "descriptions": "MDF",
+    "category": "MDF",
+    "colors": [
+      "negro",
+      "blanco",
+      "gris"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "MDF Melamina (Melaminas) con Variedad de Colores",
+    "image": "imgs/mdf_melamina.jpg",
+    "description": "El MDF con recubrimiento de melamina ofrece una superficie resistente y de bajo mantenimiento, con una amplia variedad de colores y acabados, ideal para proyectos que requieren durabilidad y estilo.<br><br>Resistente a Arañazos y Humedad: La capa de melamina protege el MDF, haciéndolo resistente al desgaste diario, a rayado y a la exposición a la humedad en aplicaciones interiores.<br><br>Aplicaciones Comunes<br><br>Muebles de Uso Diario: Perfecto para la fabricación de muebles de cocina, armarios y estanterías, donde se busca una superficie fácil de limpiar y de larga duración.<br><br>Revestimientos y Paneles: Ideal para paneles decorativos y revestimientos que necesiten un acabado de color o un diseño específico.<br><br>Instalación y Mantenimiento<br><br>Fácil de Instalar: Su estructura permite un corte limpio y un ensamblaje rápido, siendo una opción ágil para proyectos que requieren eficiencia.<br><br>Mantenimiento Simple: Requiere solo limpieza básica para mantener su apariencia, sin necesidad de tratamientos adicionales.<br><br>Añade Color y Funcionalidad a tus Proyectos<br><br>El MDF melamina de Maderería Capilla ofrece una amplia gama de colores y estilos, combinando resistencia y versatilidad para tus proyectos de carpintería.",
+    "descriptions": "MDF",
+    "category": "MDF",
+    "colors": [
+      "rojo",
+      "azul",
+      "blanco",
+      "negro",
+      "gris"
     ]
   }
 ]
