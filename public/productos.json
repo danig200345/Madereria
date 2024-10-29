@@ -375,5 +375,18 @@
       "azul",
       "negro"
     ]
+  },
+  {
+    "id": 30,
+    "name": "Corcho Natural",
+    "image": "imgs/corcho_natural.jpg",
+    "description": "Elegancia y Durabilidad: La caobilla destaca por su resistencia y tonos cálidos, aportando sofisticación a cualquier espacio.<br><br>Acabado Suave: Su superficie lisa permite acabados de alta calidad, realzando su color natural con un aspecto renovado.<br><br>Aplicaciones Versátiles<br><br>Ideal para Interiores: Perfecta para hogares y oficinas, añade un toque de lujo y distinción.<br><br>Estética Clásica: Combina con estilos decorativos modernos y tradicionales.<br><br>Instalación y Mantenimiento<br><br>Fácil de Instalar: Su ligereza facilita un montaje rápido y sin complicaciones.<br><br>Mantenimiento Bajo: Solo requiere limpieza ocasional y tratamientos simples para conservar su apariencia.<br><br>Optar por una puerta de caobilla garantiza elegancia y funcionalidad, embelleciendo cualquier espacio.",
+    "descriptions": "Puerta",
+    "category": "Corcho",
+    "colors": [
+      "rojo",
+      "azul",
+      "negro"
+    ]
   }
 ]
