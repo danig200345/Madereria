@@ -21,14 +21,6 @@
             <h6>Caracteristicas Sobresalientes:</h6>
             <p class="text-f" [innerHTML]="product.description"></p>
 
-            <h6>Colores Disponibles:</h6>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                @for (color of product.colors; track color) {
-                <span [ngClass]="color" class="product-color-dot float-start rounded-circle ms-1"></span>
-                }
-              </li>
-            </ul>
             <button class="btn btn-green rounded"><i class="fa-brands fa-whatsapp"></i> WhastApp</button>
 
 
