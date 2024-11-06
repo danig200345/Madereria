@@ -82,9 +82,16 @@
   width: 100%;
   height: 100%;
 }
+
 @media (max-width: 767px) {
+  .screen-h1 {
+    font-size: 1.65rem !important;
+  }
+  .screen-h4 {
+    font-size: 1.25rem !important;
+  }
   .btn-font {
-    font-size: 0.6rem;
+    font-size: 1rem;
     margin-top: 1.29rem;
   }
   .img img {
@@ -122,6 +129,16 @@
   }
 }
 @media (max-width: 1051px) {
+  .screen-h1 {
+    font-size: 2.75rem !important;
+  }
+  .screen-h4 {
+    font-size: 1.85rem !important;
+  }
+  .btn-font {
+    font-size: 1.5rem;
+    margin-top: 1.29rem;
+  }
   .tab {
     text-align: left;
     line-height: 1.6;
@@ -130,10 +147,45 @@
   }
 }
 @media (max-width: 991.2px) {
+  .screen-h1 {
+    font-size: 2.25rem !important;
+  }
+  .screen-h4 {
+    font-size: 1.65rem !important;
+  }
+  .btn-font {
+    font-size: 1.45rem;
+    margin-top: 1.29rem;
+  }
   .tab {
     text-align: left;
     line-height: 1.5;
     line-break: normal;
     font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .screen-h1 {
+    font-size: 2rem !important;
+  }
+  .screen-h4 {
+    font-size: 1.25rem !important;
+  }
+  .btn-font {
+    font-size: 1rem;
+    margin-top: 1.29rem;
+  }
+}
+@media (max-width: 321px) {
+  .screen-h1 {
+    font-size: 1.75rem !important;
+  }
+  .screen-h4 {
+    font-size: 1.25rem !important;
+  }
+  .btn-font {
+    font-size: 1rem;
+    margin-top: 1.29rem;
   }
 }
