@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration production --base-href /",
+    "build:prod": "ng build --configuration production --base-href 'https://danig200345.github.io/Madereria/'",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:Madereria": "node dist/madereria/server/server.mjs"
