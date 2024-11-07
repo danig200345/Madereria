@@ -38,6 +38,9 @@ jobs:
       - name: Copy index.html to 404.html
         run: cp dist/madereria/browser/index.csr.html dist/madereria/browser/404.html
 
+      - name: Add CNAME file
+        run: echo 'madereriacapilla.com' > dist/madereria/browser/CNAME
+
       - name: List files for debugging
         run: ls -R dist/madereria/browser
 
