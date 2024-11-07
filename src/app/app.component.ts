@@ -25,6 +25,7 @@ export class AppComponent implements OnInit {
     });
     this.seo.setCanonicalUrl("madereriacapilla.com")
     this.seo.setIndexFollow(true)
+    this.seo.setKeywords('madereria, carpintería, productos de madera, puertas, polin, mdf, corcho, celotex');
 
   }
 }

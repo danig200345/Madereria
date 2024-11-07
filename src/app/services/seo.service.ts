@@ -26,4 +26,7 @@ export class SeoService {
   setIndexFollow(state: boolean = true) {
     this.meta.updateTag({ name: "robots", content: state ? "index, follow" : "noindex, nofollow" });
   }
+  setKeywords(keywords: string) {
+    this.meta.updateTag({ name: 'keywords', content: keywords });
+  }
 }
