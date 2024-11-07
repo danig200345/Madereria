@@ -30,4 +30,14 @@ export class ProductosService {
       map((productos: Producto[]) => productos.find(producto => producto.id === id))
     );
   }
+  getProductByName(name: string): Observable<Producto | undefined> {
+    return this.http.get<Producto[]>(this.collection).pipe(
+      map((productos: Producto[]) => productos.find(producto => producto.name === name))
+    );
+  }
+  getProductByNameRoutes(name: string): Observable<Producto | undefined> {
+    return this.http.get<Producto[]>(this.collection).pipe(
+      map((productos: Producto[]) => productos.find(producto => producto.nameRoutes === name))
+    );
+  }
 }

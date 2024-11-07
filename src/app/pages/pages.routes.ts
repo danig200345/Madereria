@@ -15,7 +15,7 @@ export const routespages: Routes = [
     loadComponent: () => import('./nosotros/nosotros.component').then(m => m.NosotrosComponent)
   },
   {
-    path: 'productos/:id',
+    path: 'productos/:name',
     loadComponent: () => import('./producto-individual/producto-individual.component').then(m => m.ProductoIndividualComponent)
   },
   {
