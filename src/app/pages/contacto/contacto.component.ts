@@ -54,7 +54,7 @@ export class ContactoComponent implements OnInit { // La clase implementa OnInit
       this.errorMessage = '';
 
       // Utilizando Formspree para enviar el formulario
-      this.http.post('https://formspree.io/f/mzzpbnaj', this.contactForm.value)
+      this.http.post('https://formspree.io/f/xzzbgvav', this.contactForm.value)
         .subscribe(
           response => {
             this.loading = false;

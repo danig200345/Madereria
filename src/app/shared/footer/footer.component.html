@@ -10,7 +10,9 @@
       </p>
       <h6 class="text-white text-uppercase mt-4 mb-3 poppins-bold">Síguenos</h6>
       <div class="d-flex justify-content-start">
-        <a class="text-white text-decoration-none poppins-bolds" href="#"><i class="fa-brands fa-facebook fa-lg"></i>
+        <a class="text-white text-decoration-none poppins-bolds"
+          href="https://www.facebook.com/p/Madereria-Capilla-100063605408824/?_rdr" target="_blank"><i
+            class="fa-brands fa-facebook fa-lg"></i>
           Madererias Capilla
         </a>
       </div>
@@ -20,11 +22,9 @@
         Nuestros Servicios
       </h5>
       <div class="d-flex flex-column justify-content-start">
-        <a class="text-white mb-2 text-decoration-none poppins-regular" href="#"><i
+        <a class="text-white mb-2 text-decoration-none poppins-regular" (click)="scrollTop()" routerLink="/nosotros"><i
             class="fa fa-angle-right mr-2"></i>Acerca de</a>
-        <a class="text-white mb-2 text-decoration-none poppins-regular" href="#"><i
-            class="fa fa-angle-right mr-2"></i>Servicios</a>
-        <a class="text-white mb-2 text-decoration-none poppins-regular" href="#"><i
+        <a class="text-white mb-2 text-decoration-none poppins-regular" (click)="scrollTop()" routerLink="/contacto"><i
             class="fa fa-angle-right mr-2"></i>Contacto</a>
       </div>
     </div>
@@ -33,10 +33,10 @@
         Enlaces Útiles
       </h5>
       <div class="d-flex flex-column justify-content-start">
-        <a class="text-white mb-2 text-decoration-none poppins-regular" href="#"><i
-            class="fa fa-angle-right mr-2"></i>Política de Privacidad</a>
-        <a class="text-white mb-2 text-decoration-none poppins-regular" href="#"><i
-            class="fa fa-angle-right mr-2"></i>Términos y Condiciones</a>
+        <a class="text-white mb-2 text-decoration-none poppins-regular" (click)="scrollTop()"
+          routerLink="/privacidad"><i class="fa fa-angle-right mr-2"></i>Política de Privacidad</a>
+        <!-- <a class="text-white mb-2 text-decoration-none poppins-regular" (click)="scrollTop()"
+          routerLink="/terminos-y-condiciones"><i class="fa fa-angle-right mr-2"></i>Términos y Condiciones</a>-->
       </div>
     </div>
   </div>
@@ -49,7 +49,9 @@
     <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
       <p class="m-0 text-white poppins-regular">
         &copy;
-        <a class="hover-a text-white text-decoration-none poppins-bold" href="#">Madererias Capilla</a>. Todos los
+        <a class="hover-a text-white text-decoration-none poppins-bold" (click)="scrollTop()" routerLink="/">Madererias
+          Capilla</a>.
+        Todos los
         derechos reservados.
       </p>
     </div>

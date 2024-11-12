@@ -22,4 +22,12 @@ export const routespages: Routes = [
     path: 'contacto',
     loadComponent: () => import('./contacto/contacto.component').then(m => m.ContactoComponent)
   },
+  {
+    path: 'privacidad',
+    loadComponent: () => import('./politica-de-privacidad/politica-de-privacidad.component').then(m => m.PoliticaDePrivacidadComponent)
+  },
+  {
+    path: 'terminos-y-condiciones',
+    loadComponent: () => import('./terminos-y-condiciones/terminos-y-condiciones.component').then(m => m.TerminosYCondicionesComponent)
+  }
 ];
