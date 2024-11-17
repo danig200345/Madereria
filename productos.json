@@ -109,12 +109,12 @@
   },
   {
     "id": 13,
-    "name": "Triplay Astilla",
-    "nameRoutes": "triplay-astilla",
-    "image": "imgs/triplay_astilla.jpg",
-    "description": "Resistente y Económico: El triplay astilla es una opción duradera y accesible, ideal para proyectos rústicos que requieren funcionalidad.<br><br>Acabado Rústico: Su superficie natural es perfecta para aplicaciones donde no se requiere un acabado completamente liso.<br><br>Aplicaciones Comunes<br><br>Construcción y Estructuras: Usado en construcciones ligeras, revestimientos y estructuras básicas por su resistencia y costo.<br><br>Proyectos Rústicos: Ideal para carpintería que busca un estilo rústico y funcional.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: Aunque de textura más tosca, permite cortes y ensamblajes sencillos.<br><br>Mantenimiento Básico: Solo requiere limpieza regular para garantizar su durabilidad.<br><br>Eficiencia para tus Proyectos: El triplay astilla de Maderería Capilla es la solución ideal para proyectos rústicos, económicos y resistentes.",
-    "descriptions": "Triplay",
-    "category": "Triplay"
+    "name": "Panel de Astilla",
+    "nameRoutes": "panel-de-astilla",
+    "image": "imgs/panel_astilla.jpg",
+    "description": "Resistente y Económico: El panel de astilla es una opción duradera y accesible, ideal para proyectos rústicos que requieren funcionalidad.<br><br>Acabado Rústico: Su superficie natural es perfecta para aplicaciones donde no se requiere un acabado completamente liso.<br><br>Aplicaciones Comunes<br><br>Construcción y Estructuras: Usado en construcciones ligeras, revestimientos y estructuras básicas por su resistencia y costo.<br><br>Proyectos Rústicos: Ideal para carpintería que busca un estilo rústico y funcional.<br><br>Instalación y Mantenimiento<br><br>Fácil de Trabajar: Aunque de textura más tosca, permite cortes y ensamblajes sencillos.<br><br>Mantenimiento Básico: Solo requiere limpieza regular para garantizar su durabilidad.<br><br>Eficiencia para tus Proyectos: El panel de astilla de Maderería Capilla es la solución ideal para proyectos rústicos, económicos y resistentes.",
+    "descriptions": "Panel",
+    "category": "Paneles"
   },
   {
     "id": 14,
@@ -198,29 +198,11 @@
     "category": "Maderas solidas"
   },
   {
-    "id": 23,
-    "name": "Madera Caobilla",
-    "nameRoutes": "madera-caobilla",
-    "image": "imgs/caobilla.jpg",
-    "description": "En Maderería Capilla, ofrecemos madera caobilla, una opción versátil y accesible. Conocida por su apariencia similar a la caoba, es ideal para proyectos que buscan calidad a buen precio.<br><br>Características Principales<br><br>Ligera y Fácil de Trabajar: Su peso ligero facilita el corte y el ensamblaje, lo que la hace perfecta para carpinteros y aficionados.<br><br>Textura Suave: Ofrece una superficie uniforme que permite un excelente acabado con barniz, pintura o lacas.<br><br>Usos Versátiles<br><br>Muebles y Decoración: Se emplea en muebles, puertas y paneles decorativos, brindando un aspecto refinado a bajo costo.<br><br>Proyectos de Interior: Es perfecta para trabajos de interior gracias a su estabilidad y durabilidad a largo plazo.<br><br>Instalación y Mantenimiento<br><br>Instalación Sencilla: Fácil de manipular y trabajar, es ideal tanto para principiantes como para profesionales.<br><br>Mantenimiento Básico: Con cuidados mínimos, como limpieza y protección contra la humedad, su durabilidad está garantizada.<br><br>Eleva tus Proyectos con Madera Caobilla: Optar por la caobilla en Maderería Capilla es una excelente decisión si buscas un balance entre estética, funcionalidad y precio.",
-    "descriptions": "Madera",
-    "category": "Maderas solidas"
-  },
-  {
     "id": 24,
     "name": "Madera Enchapada",
     "nameRoutes": "madera-enchapada",
     "image": "imgs/enchapada.jpg",
     "description": "Opción económica que combina la elegancia de maderas nobles con materiales accesibles. Ideal para quienes buscan equilibrio entre estética y precio.<br><br>Características Clave<br><br>Aspecto Elegante: Compuesta por una capa fina de madera sobre un núcleo económico, ofrece una apariencia de lujo a menor costo.<br><br>Ligera y Estable: Más ligera que la madera maciza, mantiene estabilidad, ideal para muebles y revestimientos.<br><br>Usos Versátiles<br><br>Muebles y Acabados: Perfecta para muebles y puertas, proporcionando un acabado elegante.<br><br>Proyectos a Gran Escala: Ideal para proyectos que necesitan grandes volúmenes de material sin comprometer la estética.<br><br>Instalación y Mantenimiento<br><br>Fácil de Manipular: Su ligereza facilita el corte y ensamblaje.<br><br>Mantenimiento Sencillo: Solo requiere cuidados básicos como limpieza y protección contra la humedad.<br><br>Transforma tus Espacios con Madera Enchapada: La madera enchapada de Maderería Capilla es la opción perfecta si buscas funcionalidad y estilo a un precio accesible.",
-    "descriptions": "Madera",
-    "category": "Maderas solidas"
-  },
-  {
-    "id": 25,
-    "name": "Madera Cedrillo",
-    "nameRoutes": "madera-cedrillo",
-    "image": "imgs/cedrillo.jpg",
-    "description": "Una excelente opción por su durabilidad y resistencia, ideal para proyectos de carpintería y construcción ligera.<br><br>Características Clave<br><br>Resistente y Duradera: El cedrillo es conocido por su resistencia a la humedad y plagas, lo que lo convierte en una opción duradera para proyectos a largo plazo.<br><br>Estética Atractiva: Su color rojizo y textura fina aportan un acabado elegante, perfecto para detalles decorativos y muebles.<br><br>Usos Comunes<br><br>Ideal para Muebles y Carpintería: Usado frecuentemente en muebles y molduras, gracias a su resistencia y fácil acabado.<br><br>Adecuado para Interiores y Exteriores: Funciona bien en puertas, ventanas y otros elementos expuestos a la intemperie.<br><br>Instalación y Cuidado<br><br>Fácil de Manipular: Aunque es denso, el cedrillo se trabaja fácilmente, permitiendo cortes precisos.<br><br>Mantenimiento Simple: Solo requiere limpieza regular y protección básica para mantener su apariencia.<br><br>Elige Madera Cedrillo para tus Proyectos: La madera cedrillo de Maderería Capilla te asegura un equilibrio perfecto entre estética, durabilidad y resistencia, ideal para una variedad de aplicaciones.",
     "descriptions": "Madera",
     "category": "Maderas solidas"
   },
@@ -243,15 +225,6 @@
     "category": "Triplay"
   },
   {
-    "id": 28,
-    "name": "Madera Astilla OSB",
-    "nameRoutes": "madera-astilla-osb",
-    "image": "imgs/OSB.jpg",
-    "description": "En Maderería Capilla, te ofrecemos madera astilla OSB, un material económico y duradero, ideal para proyectos de construcción. Compuesto por astillas de madera orientadas en capas, proporciona una estructura sólida y confiable.<br><br>Características Clave<br><br>Resistente y Asequible: La madera OSB destaca por su alta resistencia y bajo costo, siendo una excelente alternativa para proyectos estructurales.<br><br>Fabricación Eficiente: Su diseño de capas orientadas asegura una distribución uniforme de la carga.<br><br>Usos Comunes<br><br>Construcción y Revestimientos: Es ideal para paredes, techos y suelos, ofreciendo estabilidad y versatilidad.<br><br>Encofrados: Perfecto para encofrados de concreto, por su capacidad de soportar cargas.<br><br>Instalación y Mantenimiento<br><br>Fácil de Manipular: Su instalación es sencilla, ya que se puede cortar y clavar fácilmente.<br><br>Mantenimiento Mínimo: Requiere cuidados mínimos, lo que lo convierte en una opción duradera.<br><br>Eleva tus Proyectos con Madera OSB: La madera astilla OSB de Maderería Capilla es una opción sólida, resistente y asequible para proyectos de construcción y revestimientos.",
-    "descriptions": "Madera",
-    "category": "Maderas solidas"
-  },
-  {
     "id": 29,
     "name": "Puerta de Caobilla",
     "nameRoutes": "puerta-de-caobilla",
@@ -266,15 +239,6 @@
     "nameRoutes": "corcho-natural",
     "image": "imgs/corcho.jpg",
     "description": "El corcho natural es un material ecológico y altamente eficiente como aislante térmico y acústico, perfecto para proyectos que buscan reducir el impacto ambiental sin sacrificar funcionalidad.<br><br>Ligero y Resistente: A pesar de su ligereza, el corcho es duradero, flexible y ofrece una excelente resistencia al desgaste, lo que lo convierte en una opción versátil para diversas aplicaciones.<br><br>Aplicaciones Comunes<br><br>Aislamiento Térmico y Acústico: Usado en revestimientos de paredes, techos y suelos, el corcho natural mejora la eficiencia energética y reduce el ruido en viviendas, oficinas y locales comerciales.<br><br>Paneles Decorativos: También es ideal para crear paneles decorativos que aportan textura y una estética cálida y natural a los interiores.<br><br>Instalación y Mantenimiento<br><br>Fácil de Instalar: Su ligereza permite una instalación rápida y sencilla, ya sea en rollos o en paneles, adaptándose a diferentes superficies y proyectos.<br><br>Mantenimiento Bajo: Requiere pocos cuidados, solo limpieza regular y, en algunos casos, un sellado periódico para mantener su apariencia y durabilidad.<br><br>Aporta Eficiencia y Sostenibilidad a tus Proyectos<br><br>El corcho natural de Maderería Capilla es la elección perfecta para proyectos que buscan un material ecológico y eficaz para el aislamiento y la decoración.",
-    "descriptions": "Corcho",
-    "category": "Corcho"
-  },
-  {
-    "id": 31,
-    "name": "Corcho con Melamina",
-    "nameRoutes": "corcho-con-melamina",
-    "image": "imgs/corcho_melamina.jpg",
-    "description": "El corcho con recubrimiento de melamina combina las propiedades aislantes del corcho con la resistencia y variedad de acabados de la melamina, lo que lo hace ideal para proyectos que requieren durabilidad y estilo en uno.<br><br>Variedad de Colores y Acabados: Disponible en una amplia gama de colores y texturas, este corcho se adapta a una gran variedad de estilos y proyectos, ofreciendo soluciones estéticas y funcionales.<br><br>Aplicaciones Comunes<br><br>Muebles de Uso Diario: Ideal para la fabricación de muebles como armarios, escritorios y estanterías, donde se requiere una superficie resistente a arañazos, golpes y manchas.<br><br>Revestimientos y Paneles Decorativos: Perfecto para revestimientos de paredes y paneles decorativos en espacios que buscan combinar estilo y funcionalidad, como oficinas y hogares.<br><br>Instalación y Mantenimiento<br><br>Fácil de Instalar: Su estructura y capa de melamina facilitan el corte y ensamblaje, proporcionando rapidez y precisión en proyectos de carpintería.<br><br>Mantenimiento Bajo: Solo requiere una limpieza regular con un paño húmedo, sin necesidad de tratamientos adicionales, lo que garantiza una durabilidad a largo plazo.<br><br>Añade Color y Funcionalidad a tus Proyectos<br><br>El corcho con melamina de Maderería Capilla es la solución ideal para quienes buscan una forma flexible y eficiente de exhibir y organizar productos o herramientas.",
     "descriptions": "Corcho",
     "category": "Corcho"
   },
@@ -300,7 +264,7 @@
     "id": 34,
     "name": "Panel Celotex Impregnado",
     "nameRoutes": "panel-celotex-impregnado",
-    "image": "imgs/celotex.jpg",
+    "image": "imgs/celotex_impregnado.jpg",
     "description": "El celotex, ya sea impregnado o natural, es un material ligero y altamente eficiente para el aislamiento térmico y acústico, ideal para mejorar la eficiencia energética en proyectos de construcción.<br><br>Opciones Sostenibles: El celotex natural está hecho de fibras recicladas y renovables, lo que lo convierte en una opción respetuosa con el medio ambiente, mientras que el celotex impregnado ofrece mayor resistencia a la humedad y durabilidad.<br><br>Aplicaciones Comunes<br><br>Aislante en Construcción: Usado en paredes, techos y pisos, mejora el confort térmico y acústico, siendo ideal para viviendas, oficinas y locales comerciales.<br><br>Revestimientos y Paneles Decorativos: También se utiliza en paneles decorativos, proporcionando un acabado visualmente atractivo y funcional, especialmente en proyectos que buscan aislamiento.<br><br>Instalación y Mantenimiento<br><br>Fácil de Instalar: Su ligereza y manejabilidad permiten una instalación rápida y eficiente, lo que reduce los tiempos de obra.<br><br>Mantenimiento Bajo: Requiere pocos cuidados y proporciona protección duradera contra el calor, el ruido y, en su versión impregnada, la humedad.<br><br>Mejora la Eficiencia Energética de tus Proyectos<br><br>El celotex impregnado de Maderería Capilla es la opción ideal para quienes buscan un material eficiente, versátil y sostenible en proyectos de aislamiento térmico y acústico.",
     "descriptions": "Panel",
     "category": "Paneles"
