@@ -9,6 +9,6 @@ import { Component } from '@angular/core';
 })
 export class PoliticaDePrivacidadComponent {
   email = 'madereriacapilla@gmail.com '
-  telefono = '33 3191 6073'
+  telefono = '1 378 112 1831'
 
 }
