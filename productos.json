@@ -199,12 +199,12 @@
   },
   {
     "id": 24,
-    "name": "Madera Enchapada",
-    "nameRoutes": "madera-enchapada",
+    "name": "Aglomerado Enchapado",
+    "nameRoutes": "aglomerado-enchapado",
     "image": "imgs/enchapada.jpg",
     "description": "Opción económica que combina la elegancia de maderas nobles con materiales accesibles. Ideal para quienes buscan equilibrio entre estética y precio.<br><br>Características Clave<br><br>Aspecto Elegante: Compuesta por una capa fina de madera sobre un núcleo económico, ofrece una apariencia de lujo a menor costo.<br><br>Ligera y Estable: Más ligera que la madera maciza, mantiene estabilidad, ideal para muebles y revestimientos.<br><br>Usos Versátiles<br><br>Muebles y Acabados: Perfecta para muebles y puertas, proporcionando un acabado elegante.<br><br>Proyectos a Gran Escala: Ideal para proyectos que necesitan grandes volúmenes de material sin comprometer la estética.<br><br>Instalación y Mantenimiento<br><br>Fácil de Manipular: Su ligereza facilita el corte y ensamblaje.<br><br>Mantenimiento Sencillo: Solo requiere cuidados básicos como limpieza y protección contra la humedad.<br><br>Transforma tus Espacios con Madera Enchapada: La madera enchapada de Maderería Capilla es la opción perfecta si buscas funcionalidad y estilo a un precio accesible.",
-    "descriptions": "Madera",
-    "category": "Maderas solidas"
+    "descriptions": "Aglomerado",
+    "category": "Aglomerados"
   },
   {
     "id": 26,
